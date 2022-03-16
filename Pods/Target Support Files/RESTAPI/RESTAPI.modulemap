@@ -1,0 +1,6 @@
+framework module RESTAPI {
+  umbrella header "RESTAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

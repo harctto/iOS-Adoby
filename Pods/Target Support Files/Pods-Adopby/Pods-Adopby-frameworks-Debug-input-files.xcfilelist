@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Adopby/Pods-Adopby-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RESTAPI/RESTAPI.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

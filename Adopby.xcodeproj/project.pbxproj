@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692F35B7AC4A24A9FC4D3F68 /* Pods_Adopby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F32A19401061ABE076B894 /* Pods_Adopby.framework */; };
 		C4EBFB1D27E202C4007DCC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */; };
 		C4EBFB1F27E202C4007DCC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */; };
 		C4EBFB2127E202C4007DCC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB2027E202C4007DCC44 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adopby.debug.xcconfig"; path = "Target Support Files/Pods-Adopby/Pods-Adopby.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F32A19401061ABE076B894 /* Pods_Adopby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adopby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBFB1927E202C4007DCC44 /* Adopby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adopby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C4EBFB2527E202C6007DCC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EBFB2827E202C6007DCC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EBFB2A27E202C6007DCC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAAA37CEBAA210D168F4FC2 /* Pods-Adopby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adopby.release.xcconfig"; path = "Target Support Files/Pods-Adopby/Pods-Adopby.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692F35B7AC4A24A9FC4D3F68 /* Pods_Adopby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D34DA761CA11F6AAF9A213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F32A19401061ABE076B894 /* Pods_Adopby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4EBFB1027E202C4007DCC44 = {
 			isa = PBXGroup;
 			children = (
 				C4EBFB1B27E202C4007DCC44 /* Adopby */,
 				C4EBFB1A27E202C4007DCC44 /* Products */,
+				EEC903E673A1F4D5EF1F5963 /* Pods */,
+				80D34DA761CA11F6AAF9A213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = Adopby;
 			sourceTree = "<group>";
 		};
+		EEC903E673A1F4D5EF1F5963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */,
+				FEAAA37CEBAA210D168F4FC2 /* Pods-Adopby.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4EBFB2D27E202C6007DCC44 /* Build configuration list for PBXNativeTarget "Adopby" */;
 			buildPhases = (
+				7ED8611E2CF9E89F36A8FA33 /* [CP] Check Pods Manifest.lock */,
 				C4EBFB1527E202C4007DCC44 /* Sources */,
 				C4EBFB1627E202C4007DCC44 /* Frameworks */,
 				C4EBFB1727E202C4007DCC44 /* Resources */,
+				6C73D01E1C1921B4D839B6B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C73D01E1C1921B4D839B6B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adopby/Pods-Adopby-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adopby/Pods-Adopby-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adopby/Pods-Adopby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ED8611E2CF9E89F36A8FA33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adopby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4EBFB1527E202C4007DCC44 /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		C4EBFB2E27E202C6007DCC44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +382,7 @@
 		};
 		C4EBFB2F27E202C6007DCC44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAAA37CEBAA210D168F4FC2 /* Pods-Adopby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
