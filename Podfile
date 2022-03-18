@@ -4,7 +4,7 @@
 target 'Adopby' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'RESTAPI', '~> 0.3'
+    pod 'Alamofire'
   # Pods for Adopby
 
 end

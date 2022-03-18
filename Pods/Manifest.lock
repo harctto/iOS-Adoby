@@ -1,20 +1,16 @@
 PODS:
-  - RESTAPI (0.3.7):
-    - SwiftyJSON
-  - SwiftyJSON (5.0.1)
+  - Alamofire (5.5.0)
 
 DEPENDENCIES:
-  - RESTAPI (~> 0.3)
+  - Alamofire
 
 SPEC REPOS:
   trunk:
-    - RESTAPI
-    - SwiftyJSON
+    - Alamofire
 
 SPEC CHECKSUMS:
-  RESTAPI: 603438c152363520dadec552cb1d271866ea8a89
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
 
-PODFILE CHECKSUM: 51d02e7113b89750ce85de405e9ae2fe2f54c2af
+PODFILE CHECKSUM: 18f1addb1fd4743f4f5dc817af44eb66c27c0146
 
 COCOAPODS: 1.11.2

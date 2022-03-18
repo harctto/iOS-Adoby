@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		692F35B7AC4A24A9FC4D3F68 /* Pods_Adopby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F32A19401061ABE076B894 /* Pods_Adopby.framework */; };
+		C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704427E4BF9400E31569 /* Prompt-Medium.ttf */; };
+		C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704527E4BF9400E31569 /* Prompt-Regular.ttf */; };
+		C427704C27E4BF9400E31569 /* Prompt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704627E4BF9400E31569 /* Prompt-Thin.ttf */; };
+		C427704D27E4BF9400E31569 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704727E4BF9400E31569 /* Prompt-Bold.ttf */; };
+		C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704827E4BF9400E31569 /* Prompt-SemiBold.ttf */; };
+		C427704F27E4BF9400E31569 /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704927E4BF9400E31569 /* Prompt-Light.ttf */; };
+		C427705127E4C3FF00E31569 /* Users_md.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427705027E4C3FF00E31569 /* Users_md.swift */; };
+		C427706427E4E11400E31569 /* BaseTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427706327E4E11400E31569 /* BaseTabbar.swift */; };
+		C427706627E4E1A200E31569 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427706527E4E1A200E31569 /* HomeViewController.swift */; };
+		C499035627E26A6B00BEBC56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499035527E26A6B00BEBC56 /* Extensions.swift */; };
+		C4AB677527E2072400CC3E87 /* PetShop_md.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB677427E2072400CC3E87 /* PetShop_md.swift */; };
 		C4EBFB1D27E202C4007DCC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */; };
 		C4EBFB1F27E202C4007DCC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */; };
 		C4EBFB2127E202C4007DCC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB2027E202C4007DCC44 /* ViewController.swift */; };
@@ -19,6 +30,17 @@
 /* Begin PBXFileReference section */
 		211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adopby.debug.xcconfig"; path = "Target Support Files/Pods-Adopby/Pods-Adopby.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F32A19401061ABE076B894 /* Pods_Adopby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adopby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C427704427E4BF9400E31569 /* Prompt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Medium.ttf"; sourceTree = "<group>"; };
+		C427704527E4BF9400E31569 /* Prompt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Regular.ttf"; sourceTree = "<group>"; };
+		C427704627E4BF9400E31569 /* Prompt-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Thin.ttf"; sourceTree = "<group>"; };
+		C427704727E4BF9400E31569 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		C427704827E4BF9400E31569 /* Prompt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-SemiBold.ttf"; sourceTree = "<group>"; };
+		C427704927E4BF9400E31569 /* Prompt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Light.ttf"; sourceTree = "<group>"; };
+		C427705027E4C3FF00E31569 /* Users_md.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_md.swift; sourceTree = "<group>"; };
+		C427706327E4E11400E31569 /* BaseTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbar.swift; sourceTree = "<group>"; };
+		C427706527E4E1A200E31569 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C499035527E26A6B00BEBC56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4AB677427E2072400CC3E87 /* PetShop_md.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShop_md.swift; sourceTree = "<group>"; };
 		C4EBFB1927E202C4007DCC44 /* Adopby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adopby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +72,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C427706727E4E54B00E31569 /* Sub-VC */ = {
+			isa = PBXGroup;
+			children = (
+				C427706527E4E1A200E31569 /* HomeViewController.swift */,
+			);
+			path = "Sub-VC";
+			sourceTree = "<group>";
+		};
+		C499035727E26BB300BEBC56 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBFB2227E202C4007DCC44 /* Main.storyboard */,
+				C4EBFB2727E202C6007DCC44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C499035827E26BBB00BEBC56 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C427704727E4BF9400E31569 /* Prompt-Bold.ttf */,
+				C427704927E4BF9400E31569 /* Prompt-Light.ttf */,
+				C427704427E4BF9400E31569 /* Prompt-Medium.ttf */,
+				C427704527E4BF9400E31569 /* Prompt-Regular.ttf */,
+				C427704827E4BF9400E31569 /* Prompt-SemiBold.ttf */,
+				C427704627E4BF9400E31569 /* Prompt-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C499037127E26CCB00BEBC56 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBFB2027E202C4007DCC44 /* ViewController.swift */,
+				C427706327E4E11400E31569 /* BaseTabbar.swift */,
+				C427706727E4E54B00E31569 /* Sub-VC */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		C4AB677327E2070100CC3E87 /* Struct_API */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB677427E2072400CC3E87 /* PetShop_md.swift */,
+				C427705027E4C3FF00E31569 /* Users_md.swift */,
+			);
+			path = Struct_API;
+			sourceTree = "<group>";
+		};
 		C4EBFB1027E202C4007DCC44 = {
 			isa = PBXGroup;
 			children = (
@@ -73,10 +144,12 @@
 			children = (
 				C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */,
 				C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */,
-				C4EBFB2027E202C4007DCC44 /* ViewController.swift */,
-				C4EBFB2227E202C4007DCC44 /* Main.storyboard */,
+				C499035527E26A6B00BEBC56 /* Extensions.swift */,
+				C499037127E26CCB00BEBC56 /* VC */,
+				C4AB677327E2070100CC3E87 /* Struct_API */,
+				C499035727E26BB300BEBC56 /* Storyboard */,
+				C499035827E26BBB00BEBC56 /* Fonts */,
 				C4EBFB2527E202C6007DCC44 /* Assets.xcassets */,
-				C4EBFB2727E202C6007DCC44 /* LaunchScreen.storyboard */,
 				C4EBFB2A27E202C6007DCC44 /* Info.plist */,
 			);
 			path = Adopby;
@@ -88,7 +161,6 @@
 				211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */,
 				FEAAA37CEBAA210D168F4FC2 /* Pods-Adopby.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,8 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EBFB2927E202C6007DCC44 /* LaunchScreen.storyboard in Resources */,
+				C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */,
+				C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */,
 				C4EBFB2627E202C6007DCC44 /* Assets.xcassets in Resources */,
 				C4EBFB2427E202C4007DCC44 /* Main.storyboard in Resources */,
+				C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */,
+				C427704D27E4BF9400E31569 /* Prompt-Bold.ttf in Resources */,
+				C427704F27E4BF9400E31569 /* Prompt-Light.ttf in Resources */,
+				C427704C27E4BF9400E31569 /* Prompt-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C499035627E26A6B00BEBC56 /* Extensions.swift in Sources */,
 				C4EBFB2127E202C4007DCC44 /* ViewController.swift in Sources */,
+				C427706427E4E11400E31569 /* BaseTabbar.swift in Sources */,
+				C427706627E4E1A200E31569 /* HomeViewController.swift in Sources */,
+				C4AB677527E2072400CC3E87 /* PetShop_md.swift in Sources */,
 				C4EBFB1D27E202C4007DCC44 /* AppDelegate.swift in Sources */,
 				C4EBFB1F27E202C4007DCC44 /* SceneDelegate.swift in Sources */,
+				C427705127E4C3FF00E31569 /* Users_md.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -376,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,6 +478,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
