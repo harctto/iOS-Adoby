@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationUsageDescription</key>
+	<string>Location Needed to view</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location Needed to view</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location Needed to view</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Prompt-Light.ttf</string>

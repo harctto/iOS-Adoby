@@ -14,14 +14,29 @@
 		C427704D27E4BF9400E31569 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704727E4BF9400E31569 /* Prompt-Bold.ttf */; };
 		C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704827E4BF9400E31569 /* Prompt-SemiBold.ttf */; };
 		C427704F27E4BF9400E31569 /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704927E4BF9400E31569 /* Prompt-Light.ttf */; };
-		C427705127E4C3FF00E31569 /* Users_md.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427705027E4C3FF00E31569 /* Users_md.swift */; };
+		C427705127E4C3FF00E31569 /* md_Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427705027E4C3FF00E31569 /* md_Users.swift */; };
 		C427706427E4E11400E31569 /* BaseTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427706327E4E11400E31569 /* BaseTabbar.swift */; };
 		C427706627E4E1A200E31569 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427706527E4E1A200E31569 /* HomeViewController.swift */; };
+		C43DEE8B27FF29C600CDDBA3 /* md_Hospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */; };
+		C43DEE8D27FF504E00CDDBA3 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C43DEE8C27FF504D00CDDBA3 /* loading.gif */; };
+		C444D89827FF546800187A11 /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444D89727FF546800187A11 /* type.swift */; };
+		C487A09127EB212000BAA39D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C487A09027EB212000BAA39D /* GoogleService-Info.plist */; };
+		C489F69527E6563600CB5878 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489F69427E6563600CB5878 /* RegisterViewController.swift */; };
+		C48D981C27FE0AEF00CE01F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */; };
+		C48D981E27FE0AFD00CE01F0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */; };
+		C48D982027FE0B0900CE01F0 /* MissingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981F27FE0B0900CE01F0 /* MissingViewController.swift */; };
+		C48D982227FE0B1900CE01F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D982127FE0B1900CE01F0 /* SearchViewController.swift */; };
+		C48D982427FE1B1A00CE01F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48D982327FE1B1A00CE01F0 /* MapKit.framework */; };
 		C499035627E26A6B00BEBC56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499035527E26A6B00BEBC56 /* Extensions.swift */; };
-		C4AB677527E2072400CC3E87 /* PetShop_md.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB677427E2072400CC3E87 /* PetShop_md.swift */; };
+		C4AB677527E2072400CC3E87 /* md_PetShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB677427E2072400CC3E87 /* md_PetShop.swift */; };
+		C4C1930727FF627700E47779 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C1930527FF627700E47779 /* cat.png */; };
+		C4C1930827FF627700E47779 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C1930627FF627700E47779 /* dog.png */; };
+		C4DB087227EB2C7F00627B14 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */; };
+		C4DB087327EB2C7F00627B14 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */; };
+		C4DB087527EB3A7600627B14 /* md_PetPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB087427EB3A7600627B14 /* md_PetPost.swift */; };
 		C4EBFB1D27E202C4007DCC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */; };
 		C4EBFB1F27E202C4007DCC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */; };
-		C4EBFB2127E202C4007DCC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB2027E202C4007DCC44 /* ViewController.swift */; };
+		C4EBFB2127E202C4007DCC44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EBFB2027E202C4007DCC44 /* LoginViewController.swift */; };
 		C4EBFB2427E202C4007DCC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBFB2227E202C4007DCC44 /* Main.storyboard */; };
 		C4EBFB2627E202C6007DCC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EBFB2527E202C6007DCC44 /* Assets.xcassets */; };
 		C4EBFB2927E202C6007DCC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBFB2727E202C6007DCC44 /* LaunchScreen.storyboard */; };
@@ -36,15 +51,30 @@
 		C427704727E4BF9400E31569 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
 		C427704827E4BF9400E31569 /* Prompt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-SemiBold.ttf"; sourceTree = "<group>"; };
 		C427704927E4BF9400E31569 /* Prompt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Light.ttf"; sourceTree = "<group>"; };
-		C427705027E4C3FF00E31569 /* Users_md.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_md.swift; sourceTree = "<group>"; };
+		C427705027E4C3FF00E31569 /* md_Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_Users.swift; sourceTree = "<group>"; };
 		C427706327E4E11400E31569 /* BaseTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbar.swift; sourceTree = "<group>"; };
 		C427706527E4E1A200E31569 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_Hospitals.swift; sourceTree = "<group>"; };
+		C43DEE8C27FF504D00CDDBA3 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		C444D89727FF546800187A11 /* type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
+		C487A09027EB212000BAA39D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C489F69427E6563600CB5878 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C48D981F27FE0B0900CE01F0 /* MissingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingViewController.swift; sourceTree = "<group>"; };
+		C48D982127FE0B1900CE01F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C48D982327FE1B1A00CE01F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C499035527E26A6B00BEBC56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		C4AB677427E2072400CC3E87 /* PetShop_md.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShop_md.swift; sourceTree = "<group>"; };
+		C4AB677427E2072400CC3E87 /* md_PetShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_PetShop.swift; sourceTree = "<group>"; };
+		C4C1930527FF627700E47779 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		C4C1930627FF627700E47779 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		C4DB087427EB3A7600627B14 /* md_PetPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_PetPost.swift; sourceTree = "<group>"; };
 		C4EBFB1927E202C4007DCC44 /* Adopby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adopby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4EBFB2027E202C4007DCC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4EBFB2027E202C4007DCC44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C4EBFB2327E202C4007DCC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4EBFB2527E202C6007DCC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EBFB2827E202C6007DCC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48D982427FE1B1A00CE01F0 /* MapKit.framework in Frameworks */,
 				692F35B7AC4A24A9FC4D3F68 /* Pods_Adopby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +98,7 @@
 		80D34DA761CA11F6AAF9A213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C48D982327FE1B1A00CE01F0 /* MapKit.framework */,
 				C2F32A19401061ABE076B894 /* Pods_Adopby.framework */,
 			);
 			name = Frameworks;
@@ -76,6 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				C427706527E4E1A200E31569 /* HomeViewController.swift */,
+				C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */,
+				C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */,
+				C48D981F27FE0B0900CE01F0 /* MissingViewController.swift */,
+				C48D982127FE0B1900CE01F0 /* SearchViewController.swift */,
+				C4DB086D27EB2C3500627B14 /* Table-cell */,
 			);
 			path = "Sub-VC";
 			sourceTree = "<group>";
@@ -105,7 +142,8 @@
 		C499037127E26CCB00BEBC56 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				C4EBFB2027E202C4007DCC44 /* ViewController.swift */,
+				C4EBFB2027E202C4007DCC44 /* LoginViewController.swift */,
+				C489F69427E6563600CB5878 /* RegisterViewController.swift */,
 				C427706327E4E11400E31569 /* BaseTabbar.swift */,
 				C427706727E4E54B00E31569 /* Sub-VC */,
 			);
@@ -115,10 +153,31 @@
 		C4AB677327E2070100CC3E87 /* Struct_API */ = {
 			isa = PBXGroup;
 			children = (
-				C4AB677427E2072400CC3E87 /* PetShop_md.swift */,
-				C427705027E4C3FF00E31569 /* Users_md.swift */,
+				C4AB677427E2072400CC3E87 /* md_PetShop.swift */,
+				C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */,
+				C4DB087427EB3A7600627B14 /* md_PetPost.swift */,
+				C427705027E4C3FF00E31569 /* md_Users.swift */,
 			);
 			path = Struct_API;
+			sourceTree = "<group>";
+		};
+		C4C1930427FF626400E47779 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C43DEE8C27FF504D00CDDBA3 /* loading.gif */,
+				C4C1930527FF627700E47779 /* cat.png */,
+				C4C1930627FF627700E47779 /* dog.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C4DB086D27EB2C3500627B14 /* Table-cell */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */,
+				C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */,
+			);
+			path = "Table-cell";
 			sourceTree = "<group>";
 		};
 		C4EBFB1027E202C4007DCC44 = {
@@ -145,12 +204,15 @@
 				C4EBFB1C27E202C4007DCC44 /* AppDelegate.swift */,
 				C4EBFB1E27E202C4007DCC44 /* SceneDelegate.swift */,
 				C499035527E26A6B00BEBC56 /* Extensions.swift */,
+				C444D89727FF546800187A11 /* type.swift */,
 				C499037127E26CCB00BEBC56 /* VC */,
 				C4AB677327E2070100CC3E87 /* Struct_API */,
 				C499035727E26BB300BEBC56 /* Storyboard */,
 				C499035827E26BBB00BEBC56 /* Fonts */,
 				C4EBFB2527E202C6007DCC44 /* Assets.xcassets */,
+				C4C1930427FF626400E47779 /* Image */,
 				C4EBFB2A27E202C6007DCC44 /* Info.plist */,
+				C487A09027EB212000BAA39D /* GoogleService-Info.plist */,
 			);
 			path = Adopby;
 			sourceTree = "<group>";
@@ -224,6 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C1930827FF627700E47779 /* dog.png in Resources */,
+				C4C1930727FF627700E47779 /* cat.png in Resources */,
+				C4DB087327EB2C7F00627B14 /* HomeTableViewCell.xib in Resources */,
 				C4EBFB2927E202C6007DCC44 /* LaunchScreen.storyboard in Resources */,
 				C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */,
 				C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */,
@@ -231,6 +296,8 @@
 				C4EBFB2427E202C4007DCC44 /* Main.storyboard in Resources */,
 				C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */,
 				C427704D27E4BF9400E31569 /* Prompt-Bold.ttf in Resources */,
+				C487A09127EB212000BAA39D /* GoogleService-Info.plist in Resources */,
+				C43DEE8D27FF504E00CDDBA3 /* loading.gif in Resources */,
 				C427704F27E4BF9400E31569 /* Prompt-Light.ttf in Resources */,
 				C427704C27E4BF9400E31569 /* Prompt-Thin.ttf in Resources */,
 			);
@@ -285,14 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C444D89827FF546800187A11 /* type.swift in Sources */,
+				C48D982227FE0B1900CE01F0 /* SearchViewController.swift in Sources */,
+				C489F69527E6563600CB5878 /* RegisterViewController.swift in Sources */,
+				C48D982027FE0B0900CE01F0 /* MissingViewController.swift in Sources */,
 				C499035627E26A6B00BEBC56 /* Extensions.swift in Sources */,
-				C4EBFB2127E202C4007DCC44 /* ViewController.swift in Sources */,
+				C43DEE8B27FF29C600CDDBA3 /* md_Hospitals.swift in Sources */,
+				C4EBFB2127E202C4007DCC44 /* LoginViewController.swift in Sources */,
+				C48D981E27FE0AFD00CE01F0 /* PostViewController.swift in Sources */,
 				C427706427E4E11400E31569 /* BaseTabbar.swift in Sources */,
+				C4DB087527EB3A7600627B14 /* md_PetPost.swift in Sources */,
 				C427706627E4E1A200E31569 /* HomeViewController.swift in Sources */,
-				C4AB677527E2072400CC3E87 /* PetShop_md.swift in Sources */,
+				C4AB677527E2072400CC3E87 /* md_PetShop.swift in Sources */,
+				C4DB087227EB2C7F00627B14 /* HomeTableViewCell.swift in Sources */,
 				C4EBFB1D27E202C4007DCC44 /* AppDelegate.swift in Sources */,
 				C4EBFB1F27E202C4007DCC44 /* SceneDelegate.swift in Sources */,
-				C427705127E4C3FF00E31569 /* Users_md.swift in Sources */,
+				C48D981C27FE0AEF00CE01F0 /* ChatViewController.swift in Sources */,
+				C427705127E4C3FF00E31569 /* md_Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +527,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +558,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
