@@ -139,8 +139,8 @@ class PostViewController: UIViewController {
             self.tfPetName.text != "" &&
             self.ddBtnType.currentTitle ?? "" != "" &&
             self.ddBtnSex.currentTitle ?? "" != "" &&
-            self.btnPetAgeY.currentTitle ?? "" != "" &&
-            self.btnPetAgeM.currentTitle ?? "" != "" &&
+            self.btnPetAgeY.currentTitle ?? "" != "อายุ (ปี)" &&
+            self.btnPetAgeM.currentTitle ?? "" != "อายุ (เดือน)" &&
             self.tfAddress.text != "" &&
             self.tfDescription.text != "" &&
             self.tfPetColor.text != ""
