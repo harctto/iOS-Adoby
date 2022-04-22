@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import DropDown
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,10 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
             }
         }
+        DropDown.startListeningToKeyboard()
         return true
     }
     
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

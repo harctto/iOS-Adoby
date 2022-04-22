@@ -1,4 +1,4 @@
-public var catType:[String] = [
+public let catType:[String] = [
     /*พันธุ์ขนสั้น*/
     "เดวอน เร็กซ์",
     "เบอร์มิลลา",
@@ -61,7 +61,7 @@ public var catType:[String] = [
     /*เครดิต: https://www.royalcanin.com/th/cats/breeds/breed-library และ https://www.baanlaesuan.com/176955/pets/lifestyle-pets/5-thai-cats */
 ]
 
-public var dogType:[String] = [
+public let dogType:[String] = [
     /*พันธุ์จิ๋ว >= 4 กก.*/
     "เจแปนีส ชิน",
     "เปอตี บราบ็องซง",
@@ -400,3 +400,7 @@ public var dogType:[String] = [
     /*ไม่เยอะไปหรอกเนาะ*/
     /*เครดิต: https://www.royalcanin.com/th/dogs/breeds/breed-library?filter=f8d39254-3c68-48ad-a6bf-933d2d56d4a3/ */
 ]
+
+public let ageY = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"]
+public let ageM = ["0","1","2","3","4","5","6","7","8","9","10","11"]
+public let sex = ["เพศผู้","เพศเมีย"]

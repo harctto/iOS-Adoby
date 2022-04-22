@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		692F35B7AC4A24A9FC4D3F68 /* Pods_Adopby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F32A19401061ABE076B894 /* Pods_Adopby.framework */; };
+		C4103AC327FF9933006CE528 /* md_PetLost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4103AC227FF9932006CE528 /* md_PetLost.swift */; };
 		C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704427E4BF9400E31569 /* Prompt-Medium.ttf */; };
 		C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704527E4BF9400E31569 /* Prompt-Regular.ttf */; };
 		C427704C27E4BF9400E31569 /* Prompt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C427704627E4BF9400E31569 /* Prompt-Thin.ttf */; };
@@ -20,6 +21,8 @@
 		C43DEE8B27FF29C600CDDBA3 /* md_Hospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */; };
 		C43DEE8D27FF504E00CDDBA3 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C43DEE8C27FF504D00CDDBA3 /* loading.gif */; };
 		C444D89827FF546800187A11 /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444D89727FF546800187A11 /* type.swift */; };
+		C451E81727FF94D200B983DF /* MissingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451E81527FF94D200B983DF /* MissingTableViewCell.swift */; };
+		C451E81827FF94D200B983DF /* MissingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C451E81627FF94D200B983DF /* MissingTableViewCell.xib */; };
 		C487A09127EB212000BAA39D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C487A09027EB212000BAA39D /* GoogleService-Info.plist */; };
 		C489F69527E6563600CB5878 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489F69427E6563600CB5878 /* RegisterViewController.swift */; };
 		C48D981C27FE0AEF00CE01F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */; };
@@ -45,6 +48,7 @@
 /* Begin PBXFileReference section */
 		211E0A83EA1D450581E3E236 /* Pods-Adopby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adopby.debug.xcconfig"; path = "Target Support Files/Pods-Adopby/Pods-Adopby.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F32A19401061ABE076B894 /* Pods_Adopby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adopby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4103AC227FF9932006CE528 /* md_PetLost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_PetLost.swift; sourceTree = "<group>"; };
 		C427704427E4BF9400E31569 /* Prompt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Medium.ttf"; sourceTree = "<group>"; };
 		C427704527E4BF9400E31569 /* Prompt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Regular.ttf"; sourceTree = "<group>"; };
 		C427704627E4BF9400E31569 /* Prompt-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Thin.ttf"; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_Hospitals.swift; sourceTree = "<group>"; };
 		C43DEE8C27FF504D00CDDBA3 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		C444D89727FF546800187A11 /* type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
+		C451E81527FF94D200B983DF /* MissingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingTableViewCell.swift; sourceTree = "<group>"; };
+		C451E81627FF94D200B983DF /* MissingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissingTableViewCell.xib; sourceTree = "<group>"; };
 		C487A09027EB212000BAA39D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C489F69427E6563600CB5878 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AB677427E2072400CC3E87 /* md_PetShop.swift */,
+				C4103AC227FF9932006CE528 /* md_PetLost.swift */,
 				C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */,
 				C4DB087427EB3A7600627B14 /* md_PetPost.swift */,
 				C427705027E4C3FF00E31569 /* md_Users.swift */,
@@ -175,7 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */,
+				C451E81527FF94D200B983DF /* MissingTableViewCell.swift */,
 				C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */,
+				C451E81627FF94D200B983DF /* MissingTableViewCell.xib */,
 			);
 			path = "Table-cell";
 			sourceTree = "<group>";
@@ -289,6 +298,7 @@
 				C4C1930827FF627700E47779 /* dog.png in Resources */,
 				C4C1930727FF627700E47779 /* cat.png in Resources */,
 				C4DB087327EB2C7F00627B14 /* HomeTableViewCell.xib in Resources */,
+				C451E81827FF94D200B983DF /* MissingTableViewCell.xib in Resources */,
 				C4EBFB2927E202C6007DCC44 /* LaunchScreen.storyboard in Resources */,
 				C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */,
 				C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */,
@@ -355,11 +365,13 @@
 				C444D89827FF546800187A11 /* type.swift in Sources */,
 				C48D982227FE0B1900CE01F0 /* SearchViewController.swift in Sources */,
 				C489F69527E6563600CB5878 /* RegisterViewController.swift in Sources */,
+				C4103AC327FF9933006CE528 /* md_PetLost.swift in Sources */,
 				C48D982027FE0B0900CE01F0 /* MissingViewController.swift in Sources */,
 				C499035627E26A6B00BEBC56 /* Extensions.swift in Sources */,
 				C43DEE8B27FF29C600CDDBA3 /* md_Hospitals.swift in Sources */,
 				C4EBFB2127E202C4007DCC44 /* LoginViewController.swift in Sources */,
 				C48D981E27FE0AFD00CE01F0 /* PostViewController.swift in Sources */,
+				C451E81727FF94D200B983DF /* MissingTableViewCell.swift in Sources */,
 				C427706427E4E11400E31569 /* BaseTabbar.swift in Sources */,
 				C4DB087527EB3A7600627B14 /* md_PetPost.swift in Sources */,
 				C427706627E4E1A200E31569 /* HomeViewController.swift in Sources */,
@@ -521,9 +533,13 @@
 				DEVELOPMENT_TEAM = 4555MH983H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Adopby/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -552,9 +568,13 @@
 				DEVELOPMENT_TEAM = 4555MH983H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Adopby/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

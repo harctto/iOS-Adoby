@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -13,6 +14,9 @@
         </array>
         <array key="Prompt-Regular.ttf">
             <string>Prompt-Regular</string>
+        </array>
+        <array key="Prompt-SemiBold.ttf">
+            <string>Prompt-SemiBold</string>
         </array>
     </customFonts>
     <objects>
@@ -25,64 +29,120 @@
                 <rect key="frame" x="0.0" y="0.0" width="314" height="177"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Qm-sa-IX6">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="se0-pn-kmU">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="177"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Qm-sa-IX6">
                         <rect key="frame" x="0.0" y="0.0" width="151" height="177"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="177" id="99Q-Cn-Xoy"/>
                             <constraint firstAttribute="width" constant="151" id="WHB-Ui-1Wb"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytg-hk-daF">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytg-hk-daF">
                         <rect key="frame" x="159" y="11" width="96" height="28"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="96" id="PZQ-EB-mbR"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="พันธุ์ : อิอิรีทีฟเวอร์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g1-mr-TRd">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g1-mr-TRd">
                         <rect key="frame" x="159" y="39" width="155" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 ขวบ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-zF-7bq">
-                        <rect key="frame" x="264" y="18" width="50" height="15"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-zF-7bq">
+                        <rect key="frame" x="260" y="18" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="kV4-ik-u00"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="13"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-2Q-Trc">
-                        <rect key="frame" x="255" y="11" width="9" height="28"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-2Q-Trc">
+                        <rect key="frame" x="255" y="11" width="4" height="27.5"/>
                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="18"/>
+                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouF-k8-37I">
+                        <rect key="frame" x="159" y="61" width="155" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="67" id="0Wc-dJ-FKg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สถานที่ : ดาวอังคาร" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouF-k8-37I">
-                        <rect key="frame" x="159" y="61" width="155" height="84"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="..." lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAt-VK-W4l">
+                        <rect key="frame" x="159" y="136" width="155" height="18"/>
                         <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upI-aE-GK4">
+                        <rect key="frame" x="9" y="147" width="85" height="22"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="CAM-n2-B7j"/>
+                            <constraint firstAttribute="height" constant="22" id="dma-4R-7X8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="SAt-VK-W4l" firstAttribute="top" secondItem="ouF-k8-37I" secondAttribute="bottom" constant="8" symbolic="YES" id="75f-3o-YlC"/>
+                    <constraint firstAttribute="trailing" secondItem="ouF-k8-37I" secondAttribute="trailing" id="8y9-Qf-DO1"/>
+                    <constraint firstItem="UOc-2Q-Trc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="9an-kz-7LD"/>
                     <constraint firstItem="5Qm-sa-IX6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bcl-oy-6CI"/>
+                    <constraint firstAttribute="trailing" secondItem="se0-pn-kmU" secondAttribute="trailing" id="Dbp-sa-K7u"/>
+                    <constraint firstItem="upI-aE-GK4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="IV4-th-DJG"/>
                     <constraint firstAttribute="bottom" secondItem="5Qm-sa-IX6" secondAttribute="bottom" id="QY6-4k-N5a"/>
+                    <constraint firstItem="ytg-hk-daF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Uzm-wu-H8E"/>
+                    <constraint firstItem="SAt-VK-W4l" firstAttribute="leading" secondItem="5Qm-sa-IX6" secondAttribute="trailing" constant="8" symbolic="YES" id="XFT-Jh-TBJ"/>
+                    <constraint firstItem="se0-pn-kmU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZFy-NV-4Ku"/>
                     <constraint firstItem="5Qm-sa-IX6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="byV-Kb-krb"/>
+                    <constraint firstAttribute="bottom" secondItem="se0-pn-kmU" secondAttribute="bottom" id="dfw-Oe-u8e"/>
+                    <constraint firstItem="ouF-k8-37I" firstAttribute="top" secondItem="9g1-mr-TRd" secondAttribute="bottom" id="dge-zg-t3h"/>
+                    <constraint firstItem="9g1-mr-TRd" firstAttribute="top" secondItem="ytg-hk-daF" secondAttribute="bottom" id="g6c-rp-FL8"/>
+                    <constraint firstAttribute="trailing" secondItem="TMb-zF-7bq" secondAttribute="trailing" constant="4" id="g8i-Tb-KHm"/>
+                    <constraint firstAttribute="trailing" secondItem="SAt-VK-W4l" secondAttribute="trailing" id="hMP-t6-77X"/>
+                    <constraint firstItem="ouF-k8-37I" firstAttribute="leading" secondItem="5Qm-sa-IX6" secondAttribute="trailing" constant="8" symbolic="YES" id="kLb-WE-3ik"/>
+                    <constraint firstAttribute="bottom" secondItem="SAt-VK-W4l" secondAttribute="bottom" constant="23" id="lju-Z2-ZPe"/>
+                    <constraint firstItem="UOc-2Q-Trc" firstAttribute="leading" secondItem="ytg-hk-daF" secondAttribute="trailing" id="nZ1-kv-xXY"/>
+                    <constraint firstAttribute="bottom" secondItem="upI-aE-GK4" secondAttribute="bottom" constant="8" id="oRY-35-xGA"/>
+                    <constraint firstItem="9g1-mr-TRd" firstAttribute="leading" secondItem="5Qm-sa-IX6" secondAttribute="trailing" constant="8" symbolic="YES" id="onu-hQ-y85"/>
+                    <constraint firstItem="se0-pn-kmU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pwv-zQ-350"/>
+                    <constraint firstAttribute="trailing" secondItem="9g1-mr-TRd" secondAttribute="trailing" id="sSQ-oe-YOK"/>
+                    <constraint firstItem="ytg-hk-daF" firstAttribute="leading" secondItem="5Qm-sa-IX6" secondAttribute="trailing" constant="8" symbolic="YES" id="uoJ-Xj-YjR"/>
+                    <constraint firstItem="UOc-2Q-Trc" firstAttribute="leading" secondItem="ytg-hk-daF" secondAttribute="trailing" id="ytJ-Sd-xrh"/>
+                    <constraint firstItem="TMb-zF-7bq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="zs3-wB-5OK"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="bgView" destination="se0-pn-kmU" id="M6I-bq-T09"/>
                 <outlet property="imgPet" destination="5Qm-sa-IX6" id="2ac-Yz-daR"/>
-                <outlet property="lbPetAddress" destination="ouF-k8-37I" id="aWs-U5-Afu"/>
+                <outlet property="lbPetAddress" destination="SAt-VK-W4l" id="c7Y-Ny-oJn"/>
                 <outlet property="lbPetAge" destination="TMb-zF-7bq" id="8UX-FG-Odv"/>
+                <outlet property="lbPetDescription" destination="ouF-k8-37I" id="4SB-u5-PC6"/>
                 <outlet property="lbPetName" destination="ytg-hk-daF" id="pad-0h-MFN"/>
                 <outlet property="lbPetType" destination="9g1-mr-TRd" id="8KQ-73-kNU"/>
+                <outlet property="lbStatus" destination="upI-aE-GK4" id="2d7-cO-Tax"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="107.47767857142857"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

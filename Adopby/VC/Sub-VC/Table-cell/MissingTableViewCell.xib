@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Prompt-Bold.ttf">
+            <string>Prompt-Bold</string>
+        </array>
+        <array key="Prompt-Regular.ttf">
+            <string>Prompt-Regular</string>
+        </array>
+        <array key="Prompt-SemiBold.ttf">
+            <string>Prompt-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MissingTableViewCell" rowHeight="71" id="KGk-i7-Jjw" customClass="MissingTableViewCell" customModule="Adopby" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGi-rd-rLV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y3r-GU-zcg">
+                        <rect key="frame" x="0.0" y="0.0" width="151" height="177"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="151" id="ZUa-bN-reQ"/>
+                            <constraint firstAttribute="height" constant="177" id="fgr-bM-FaM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICW-LB-5zH">
+                        <rect key="frame" x="159" y="9" width="96" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="96" id="rM1-Fw-AYv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZi-3i-wUn">
+                        <rect key="frame" x="270" y="15" width="41" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="UTq-yI-OEE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yp-qM-DKK">
+                        <rect key="frame" x="261" y="8" width="4.6666666666666856" height="28"/>
+                        <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="18"/>
+                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YX5-te-Vtg">
+                        <rect key="frame" x="159" y="38" width="155" height="22"/>
+                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtQ-09-pdy">
+                        <rect key="frame" x="159" y="144" width="155" height="22"/>
+                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-2D-EFI">
+                        <rect key="frame" x="159" y="122" width="155" height="22"/>
+                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uK9-0i-beU">
+                        <rect key="frame" x="159" y="64" width="155" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="58" id="ByR-zI-WTN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="กำลังหาบ้าน" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnL-oX-Ew4">
+                        <rect key="frame" x="11" y="144" width="85" height="22"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="65R-Fo-zab"/>
+                            <constraint firstAttribute="width" constant="85" id="Vs6-AO-S2g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uK9-0i-beU" firstAttribute="top" secondItem="YX5-te-Vtg" secondAttribute="bottom" constant="4" id="6Ln-aW-1cr"/>
+                    <constraint firstAttribute="trailing" secondItem="vtQ-09-pdy" secondAttribute="trailing" constant="6" id="AnQ-Oh-DUt"/>
+                    <constraint firstItem="7Yp-qM-DKK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="BsX-ko-WER"/>
+                    <constraint firstItem="ICW-LB-5zH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="D6t-A6-GoW"/>
+                    <constraint firstItem="MZi-3i-wUn" firstAttribute="leading" secondItem="7Yp-qM-DKK" secondAttribute="trailing" constant="4.5" id="DnQ-tM-n6g"/>
+                    <constraint firstAttribute="bottom" secondItem="bGi-rd-rLV" secondAttribute="bottom" id="DvW-0H-ijo"/>
+                    <constraint firstItem="vtQ-09-pdy" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="FGh-EA-zEE"/>
+                    <constraint firstItem="Y3r-GU-zcg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Hhh-Is-l8f"/>
+                    <constraint firstItem="7Yp-qM-DKK" firstAttribute="leading" secondItem="ICW-LB-5zH" secondAttribute="trailing" constant="6" id="Ilt-wi-AVY"/>
+                    <constraint firstAttribute="bottom" secondItem="Y3r-GU-zcg" secondAttribute="bottom" id="KUI-3s-Ebn"/>
+                    <constraint firstItem="uK9-0i-beU" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="MpV-AK-sIx"/>
+                    <constraint firstAttribute="trailing" secondItem="YX5-te-Vtg" secondAttribute="trailing" constant="6" id="NOB-5F-BRn"/>
+                    <constraint firstItem="bGi-rd-rLV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QKv-vv-jx5"/>
+                    <constraint firstItem="MZi-3i-wUn" firstAttribute="leading" secondItem="7Yp-qM-DKK" secondAttribute="trailing" constant="4.5" id="R0w-xt-SLP"/>
+                    <constraint firstAttribute="bottom" secondItem="vtQ-09-pdy" secondAttribute="bottom" constant="11" id="U9F-NN-WxT"/>
+                    <constraint firstAttribute="bottom" secondItem="lnL-oX-Ew4" secondAttribute="bottom" constant="11" id="bb2-ON-y4I"/>
+                    <constraint firstItem="vtQ-09-pdy" firstAttribute="top" secondItem="cjD-2D-EFI" secondAttribute="bottom" id="dTM-nc-nZH"/>
+                    <constraint firstItem="Y3r-GU-zcg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dcR-AE-wc8"/>
+                    <constraint firstItem="YX5-te-Vtg" firstAttribute="top" secondItem="ICW-LB-5zH" secondAttribute="bottom" constant="1" id="eBL-8u-r5n"/>
+                    <constraint firstAttribute="trailing" secondItem="MZi-3i-wUn" secondAttribute="trailing" constant="9" id="eHj-Vj-1sY"/>
+                    <constraint firstItem="YX5-te-Vtg" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="fUz-ZZ-dZR"/>
+                    <constraint firstItem="lnL-oX-Ew4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="hhU-k9-sno"/>
+                    <constraint firstItem="MZi-3i-wUn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="jhK-Oo-mUC"/>
+                    <constraint firstAttribute="trailing" secondItem="uK9-0i-beU" secondAttribute="trailing" constant="6" id="mhB-7Z-cfN"/>
+                    <constraint firstItem="7Yp-qM-DKK" firstAttribute="leading" secondItem="ICW-LB-5zH" secondAttribute="trailing" constant="6" id="pRm-Pm-t22"/>
+                    <constraint firstItem="cjD-2D-EFI" firstAttribute="top" secondItem="uK9-0i-beU" secondAttribute="bottom" id="rS9-Wd-5wm"/>
+                    <constraint firstItem="cjD-2D-EFI" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="sFT-SH-NIK"/>
+                    <constraint firstItem="bGi-rd-rLV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tR1-Rj-BF8"/>
+                    <constraint firstItem="ICW-LB-5zH" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="uAu-Gl-uH1"/>
+                    <constraint firstAttribute="trailing" secondItem="bGi-rd-rLV" secondAttribute="trailing" id="v46-pk-1Dv"/>
+                    <constraint firstAttribute="trailing" secondItem="cjD-2D-EFI" secondAttribute="trailing" constant="6" id="xea-Vi-qXP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgCell" destination="bGi-rd-rLV" id="UBD-9I-NOF"/>
+                <outlet property="imgPet" destination="Y3r-GU-zcg" id="Gf7-2f-CtQ"/>
+                <outlet property="lbLastSeen" destination="cjD-2D-EFI" id="W53-6N-CFf"/>
+                <outlet property="lbPetAge" destination="MZi-3i-wUn" id="RAG-p2-Tal"/>
+                <outlet property="lbPetDescription" destination="uK9-0i-beU" id="TOy-hF-hYD"/>
+                <outlet property="lbPetName" destination="ICW-LB-5zH" id="vvv-0D-lNF"/>
+                <outlet property="lbPetType" destination="YX5-te-Vtg" id="4WV-t5-SRy"/>
+                <outlet property="lbPrice" destination="vtQ-09-pdy" id="hkZ-7k-Tpt"/>
+                <outlet property="lbStatus" destination="lnL-oX-Ew4" id="b04-Sj-ext"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="112.68472906403942"/>
+        </tableViewCell>
+    </objects>
+</document>

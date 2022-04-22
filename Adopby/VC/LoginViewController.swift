@@ -66,6 +66,7 @@ class LoginViewController: UIViewController {
         tfPassword.textColor = UIColor.init(rgb: 0x7E6514)
         tfPassword.layer.cornerRadius = 20
         btnSignin.layer.cornerRadius = 20
+        btnSignin.startAnimatingPressActions()
     }
     
     // MARK: - Override
@@ -75,6 +76,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
     
     // MARK: - Pass Value to BaseTabbar
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

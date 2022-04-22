@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C76CE6CD60B1CE55A174F03CC59AE17"
-               BuildableName = "iOSDropDown.framework"
-               BlueprintName = "iOSDropDown"
+               BlueprintIdentifier = "E6F2C4BF4F14A0150EA8C977175C9A0D"
+               BuildableName = "AnimatableReload.framework"
+               BlueprintName = "AnimatableReload"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

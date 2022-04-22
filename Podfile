@@ -6,8 +6,9 @@ target 'Adopby' do
   use_frameworks!
     pod 'Alamofire'
     pod 'Firebase/Firestore'
-    pod 'iOSDropDown', '~> 0.3'
+    pod 'DropDown'
     pod 'BetterSegmentedControl', '~> 2.0'
+	pod "AnimatableReload"
   # Pods for Adopby
 
 end

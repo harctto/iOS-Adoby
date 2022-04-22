@@ -1,37 +1,35 @@
 //
-//  PetPost_md.swift
+//  md_PetLost.swift
 //  Adopby
 //
-//  Created by Hatto on 23/3/2565 BE.
+//  Created by Hatto on 8/4/2565 BE.
 //
 
 import Foundation
 
-// MARK: - PetPosts
-struct PetPost: Codable {
-    let id, postID, petName, petType: String
-    let petColor, petSex, petAge, petpostDescription: String
+// MARK: - PetlostElement
+struct Petlost: Codable {
+    let id, petID, petName, petType: String
+    let petColor, petSex, petAge, petlostDescription: String
     let imgURL: String
-    let uid, dateCreate: String
+    let lastSeen, uid, dateCreate: String
     let v: Int
-    let status, petAddress: String
+    let price: String
     
     enum CodingKeys: String, CodingKey {
         case id = "_id"
-        case postID = "post_id"
+        case petID = "pet_id"
         case petName = "pet_name"
         case petType = "pet_type"
         case petColor = "pet_color"
         case petSex = "pet_sex"
         case petAge = "pet_age"
-        case petpostDescription = "description"
+        case petlostDescription = "description"
         case imgURL = "img_url"
+        case lastSeen = "last_seen"
         case uid
         case dateCreate = "date_create"
         case v = "__v"
-        case status
-        case petAddress = "pet_address"
+        case price
     }
 }
-
-

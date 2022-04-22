@@ -7,12 +7,14 @@
 
 import UIKit
 import Alamofire
+import AnimatableReload
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var currentUsername:[String] = []
     @IBOutlet weak var tableview: UITableView!
     @IBOutlet weak var lbUsername: UILabel!
+    @IBOutlet weak var btnModal: UIButton!
     let refreshControl = UIRefreshControl()
     var countforrow:Int = 0
     
@@ -31,6 +33,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
         refreshControl.tintColor = UIColor.init(rgb: 0x7E6514)
         tableview.addSubview(refreshControl)
+        btnModal.startAnimatingPressActions()
     }
     
     func fetchDataForCellRow() {
@@ -47,7 +50,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 10
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -56,19 +59,11 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.layer.cornerRadius = 20
             cell.clipsToBounds = true
             if indexPath.row % 2 == 0 {
-                cell.backgroundColor = .white
-                cell.imgPet.layer.cornerRadius = 20
-                cell.imgPet.contentMode = .scaleAspectFit
+                cell.bgView.backgroundColor = .white
             }
             else {
-                cell.backgroundColor = UIColor.init(rgb: 0xFBE6A2)
-                cell.imgPet.layer.cornerRadius = 20
-                cell.imgPet.contentMode = .scaleAspectFit
+                cell.bgView.backgroundColor = UIColor.init(rgb: 0xFBE6A2)
             }
-            cell.lbPetName.textColor = .black
-            cell.lbPetType.textColor = .black
-            cell.lbPetAddress.textColor = .black
-            cell.lbPetAge.textColor = .black
             //fetch data
             let url = "https://adoby.glitch.me/petposts"
             AF.request(url,method: .get)
@@ -78,9 +73,17 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
                 if keepData.indices.contains(0) {
                     cell.lbPetName.text = keepData[safe: indexPath.row]?.petName
                     cell.lbPetType.text = keepData[safe: indexPath.row]?.petType
-                    cell.lbPetAge.text = keepData[safe: indexPath.row]?.petAge
-                    cell.lbPetAddress.text = keepData[safe: indexPath.row]?.petpostDescription
+                    cell.lbPetAge.text = "\(keepData[safe: indexPath.row]?.petAge ?? "")"
+                    cell.lbPetDescription.text = keepData[safe: indexPath.row]?.petpostDescription
+                    cell.lbPetAddress.text = keepData[safe: indexPath.row]?.petAddress
                     cell.imgPet.loadFrom(URLAddress: keepData[safe: indexPath.row]?.imgURL ?? "")
+                    if keepData[safe: indexPath.row]?.status == "กำลังหาบ้าน" {
+                        cell.lbStatus.textColor = .init(red: 0, green: 150, blue: 0)
+                        cell.lbStatus.text = "🐶 กำลังหาบ้าน"
+                    } else {
+                        cell.lbStatus.textColor = .init(rgb: 0x7E6514)
+                        cell.lbStatus.text = "🐶 มีบ้านแล้ว"
+                    }
                 }
             }
             
@@ -106,6 +109,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         //reload await
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.tableview.reloadData()
+            AnimatableReload.reload(tableView: self.tableview, animationDirection: "up")
         }
         let modalController = PostViewController()
         modalController.isDismissed = { [weak self] in
@@ -115,12 +119,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        tableview.reloadData()
         fetchDataForCellRow()
         countforrow = 0
         refreshControl.beginRefreshing()
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.tableview.reloadData()
+            AnimatableReload.reload(tableView: self.tableview, animationDirection: "up")
             self.refreshControl.endRefreshing()
         }
     }

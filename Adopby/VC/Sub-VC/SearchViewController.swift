@@ -66,6 +66,7 @@ class SearchViewController: UIViewController {
             MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 100000),
             animated: true
         )
+        map.overrideUserInterfaceStyle = .light
         map.showsUserLocation = true
     }
     
