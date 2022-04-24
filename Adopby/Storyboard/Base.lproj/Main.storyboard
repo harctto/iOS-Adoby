@@ -53,6 +53,7 @@
                                 <rect key="frame" x="45" y="184" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549019602" green="0.90196078431372551" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.49411764705882355" green="0.396078431372549" blue="0.078431372549019607" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -61,6 +62,7 @@
                                 <rect key="frame" x="45" y="251" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
@@ -69,6 +71,7 @@
                                 <rect key="frame" x="45" y="318" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
@@ -77,6 +80,7 @@
                                 <rect key="frame" x="45" y="385" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -85,6 +89,7 @@
                                 <rect key="frame" x="45" y="452" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -93,6 +98,7 @@
                                 <rect key="frame" x="45" y="519" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -101,6 +107,7 @@
                                 <rect key="frame" x="45" y="586" width="284" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="next"/>
@@ -425,13 +432,13 @@
                                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อ" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DaW-Ya-dgz">
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อ (ถ้ามี)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DaW-Ya-dgz">
                                                 <rect key="frame" x="42" y="82" width="290" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
@@ -445,21 +452,7 @@
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ที่อยู่" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ofb-Td-d2d">
-                                                <rect key="frame" x="42" y="552" width="290" height="47"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
@@ -473,7 +466,7 @@
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
@@ -508,7 +501,9 @@
                                                 <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="22"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="ลงทะเบียน"/>
+                                                <state key="normal" title="ลงทะเบียน">
+                                                    <color key="titleColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="btnPost:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="pQq-MG-qDg"/>
                                                 </connections>
@@ -532,7 +527,7 @@
                                                 <rect key="frame" x="42" y="298" width="290" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="เพศ">
@@ -546,7 +541,7 @@
                                                 <rect key="frame" x="42" y="480" width="290" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="กรุณาเลือกสุนัข หรือ แมว">
@@ -556,18 +551,11 @@
                                                     <action selector="handleTapDdType:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="afT-7R-roj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2n-Jy-OtL">
-                                                <rect key="frame" x="42" y="696" width="290" height="202"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw9-De-Xoc">
                                                 <rect key="frame" x="192" y="225" width="140" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="อายุ (เดือน)">
@@ -581,7 +569,7 @@
                                                 <rect key="frame" x="42" y="226" width="140" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="อายุ (ปี)">
@@ -589,6 +577,52 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="handleTapDdAgeY:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="0H4-ed-3Ul"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App_Icon_Useable" translatesAutoresizingMaskIntoConstraints="NO" id="Nbk-2f-Vsi">
+                                                <rect key="frame" x="42" y="768" width="290" height="129"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS7-U1-2t9">
+                                                <rect key="frame" x="284" y="699" width="48" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" red="0.79607843137254897" green="0.25882352941176467" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="xmark.bin.fill" catalog="system">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnDeleteImage:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="DKu-mb-Ple"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaR-nb-CKb">
+                                                <rect key="frame" x="42" y="697" width="242" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="อัพโหลดรูปภาพ">
+                                                    <color key="titleColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnAddImage:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="YCp-Hs-Pyc"/>
+                                                    <action selector="btnPost:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="GQ5-aI-uDg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfd-eC-ztD">
+                                                <rect key="frame" x="42" y="552" width="290" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="ระแวกที่อยู่">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdAdress:" destination="2Ve-pO-vQH" eventType="touchUpInside" id="9g1-hy-1Zf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -622,14 +656,17 @@
                     <navigationItem key="navigationItem" id="eBz-Hl-BkN"/>
                     <size key="freeformSize" width="375" height="838"/>
                     <connections>
+                        <outlet property="btnAddress" destination="Vfd-eC-ztD" id="nFk-Ll-jfa"/>
                         <outlet property="btnDismiss" destination="5df-RU-B6S" id="xnn-EI-NwM"/>
+                        <outlet property="btnImageAdd" destination="ZaR-nb-CKb" id="Td3-iJ-gCh"/>
+                        <outlet property="btnImageDelete" destination="DS7-U1-2t9" id="Vx2-wD-6Wq"/>
                         <outlet property="btnPetAgeM" destination="fw9-De-Xoc" id="cuR-cJ-zhW"/>
                         <outlet property="btnPetAgeY" destination="QfW-Br-M8r" id="uVA-no-FBx"/>
                         <outlet property="btnPost" destination="ujS-wH-8S8" id="wcZ-vv-6Wk"/>
                         <outlet property="ddBtnSex" destination="xRv-yS-TeI" id="9KN-Te-FHv"/>
                         <outlet property="ddBtnType" destination="kqj-qr-IUb" id="OGV-2A-SlR"/>
+                        <outlet property="imgShow" destination="Nbk-2f-Vsi" id="i7s-T3-34Q"/>
                         <outlet property="sgDogCat" destination="kmF-oZ-UDZ" id="Fqm-Vg-qYL"/>
-                        <outlet property="tfAddress" destination="Ofb-Td-d2d" id="ojA-Fe-leo"/>
                         <outlet property="tfDescription" destination="Ek9-rr-ZFq" id="Zm8-EK-Bys"/>
                         <outlet property="tfPetColor" destination="SKx-lS-pBq" id="TBT-RP-w9R"/>
                         <outlet property="tfPetName" destination="DaW-Ya-dgz" id="XGF-mn-txi"/>
@@ -730,6 +767,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="App_Icon_Useable" width="341.33334350585938" height="341.33334350585938"/>
         <image name="bubble.left.and.bubble.right" catalog="system" width="128" height="96"/>
         <image name="exclamationmark.square" catalog="system" width="128" height="114"/>
         <image name="house" catalog="system" width="128" height="106"/>
@@ -737,6 +775,7 @@
         <image name="pawprint.circle" catalog="system" width="128" height="121"/>
         <image name="pawprint.circle.fill" catalog="system" width="128" height="121"/>
         <image name="pawprint.fill" catalog="system" width="128" height="113"/>
+        <image name="xmark.bin.fill" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

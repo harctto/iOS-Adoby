@@ -86,19 +86,63 @@ extension UIButton {
                        initialSpringVelocity: 3,
                        options: [.curveEaseInOut],
                        animations: {
-                        button.transform = transform
-            }, completion: nil)
+            button.transform = transform
+        }, completion: nil)
     }
     
 }
 
 extension UITextField{
-   @IBInspectable var placeHolderColor: UIColor? {
+    @IBInspectable var placeHolderColor: UIColor? {
         get {
             return self.placeHolderColor
         }
         set {
             self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: newValue!])
         }
+    }
+}
+
+extension String {
+    
+    static func uniqueFilename(withPrefix prefix: String? = nil) -> String {
+        let uniqueString = ProcessInfo.processInfo.globallyUniqueString
+        
+        if prefix != nil {
+            return "\(prefix!)-\(uniqueString)"
+        }
+        
+        return uniqueString
+    }
+    
+}
+
+struct ProgressDialog {
+    static var alert = UIAlertController()
+    static var progressView = UIProgressView()
+    static var progressPoint : Float = 0{
+        didSet{
+            if(progressPoint == 1){
+                ProgressDialog.alert.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
+}
+
+extension UIViewController{
+    func LoadingStart(){
+        ProgressDialog.alert = UIAlertController(title: nil, message: "กรุณารอสักครู่...", preferredStyle: .alert)
+        
+        let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
+        loadingIndicator.hidesWhenStopped = true
+        loadingIndicator.style = UIActivityIndicatorView.Style.medium
+        loadingIndicator.startAnimating();
+        
+        ProgressDialog.alert.view.addSubview(loadingIndicator)
+        present(ProgressDialog.alert, animated: true, completion: nil)
+    }
+    
+    func LoadingStop(){
+        ProgressDialog.alert.dismiss(animated: true, completion: nil)
     }
 }

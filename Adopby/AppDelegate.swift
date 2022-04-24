@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
         if #available(iOS 13.0, *) {
             let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
             tabBarAppearance.configureWithDefaultBackground()
@@ -27,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
             }
         }
+        FirebaseApp.configure()
         DropDown.startListeningToKeyboard()
         return true
     }

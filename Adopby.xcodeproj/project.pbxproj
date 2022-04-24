@@ -23,7 +23,6 @@
 		C444D89827FF546800187A11 /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444D89727FF546800187A11 /* type.swift */; };
 		C451E81727FF94D200B983DF /* MissingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451E81527FF94D200B983DF /* MissingTableViewCell.swift */; };
 		C451E81827FF94D200B983DF /* MissingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C451E81627FF94D200B983DF /* MissingTableViewCell.xib */; };
-		C487A09127EB212000BAA39D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C487A09027EB212000BAA39D /* GoogleService-Info.plist */; };
 		C489F69527E6563600CB5878 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489F69427E6563600CB5878 /* RegisterViewController.swift */; };
 		C48D981C27FE0AEF00CE01F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */; };
 		C48D981E27FE0AFD00CE01F0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */; };
@@ -34,6 +33,7 @@
 		C4AB677527E2072400CC3E87 /* md_PetShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB677427E2072400CC3E87 /* md_PetShop.swift */; };
 		C4C1930727FF627700E47779 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C1930527FF627700E47779 /* cat.png */; };
 		C4C1930827FF627700E47779 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C1930627FF627700E47779 /* dog.png */; };
+		C4CA100F281558A000BFFB9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4CA100E281558A000BFFB9A /* GoogleService-Info.plist */; };
 		C4DB087227EB2C7F00627B14 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */; };
 		C4DB087327EB2C7F00627B14 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */; };
 		C4DB087527EB3A7600627B14 /* md_PetPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB087427EB3A7600627B14 /* md_PetPost.swift */; };
@@ -63,7 +63,6 @@
 		C444D89727FF546800187A11 /* type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
 		C451E81527FF94D200B983DF /* MissingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingTableViewCell.swift; sourceTree = "<group>"; };
 		C451E81627FF94D200B983DF /* MissingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissingTableViewCell.xib; sourceTree = "<group>"; };
-		C487A09027EB212000BAA39D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C489F69427E6563600CB5878 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C48D981B27FE0AEF00CE01F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		C4AB677427E2072400CC3E87 /* md_PetShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_PetShop.swift; sourceTree = "<group>"; };
 		C4C1930527FF627700E47779 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		C4C1930627FF627700E47779 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		C4CA100E281558A000BFFB9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4DB087027EB2C7F00627B14 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		C4DB087127EB2C7F00627B14 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		C4DB087427EB3A7600627B14 /* md_PetPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_PetPost.swift; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 				C4EBFB2527E202C6007DCC44 /* Assets.xcassets */,
 				C4C1930427FF626400E47779 /* Image */,
 				C4EBFB2A27E202C6007DCC44 /* Info.plist */,
-				C487A09027EB212000BAA39D /* GoogleService-Info.plist */,
+				C4CA100E281558A000BFFB9A /* GoogleService-Info.plist */,
 			);
 			path = Adopby;
 			sourceTree = "<group>";
@@ -302,11 +302,11 @@
 				C4EBFB2927E202C6007DCC44 /* LaunchScreen.storyboard in Resources */,
 				C427704A27E4BF9400E31569 /* Prompt-Medium.ttf in Resources */,
 				C427704B27E4BF9400E31569 /* Prompt-Regular.ttf in Resources */,
+				C4CA100F281558A000BFFB9A /* GoogleService-Info.plist in Resources */,
 				C4EBFB2627E202C6007DCC44 /* Assets.xcassets in Resources */,
 				C4EBFB2427E202C4007DCC44 /* Main.storyboard in Resources */,
 				C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */,
 				C427704D27E4BF9400E31569 /* Prompt-Bold.ttf in Resources */,
-				C487A09127EB212000BAA39D /* GoogleService-Info.plist in Resources */,
 				C43DEE8D27FF504E00CDDBA3 /* loading.gif in Resources */,
 				C427704F27E4BF9400E31569 /* Prompt-Light.ttf in Resources */,
 				C427704C27E4BF9400E31569 /* Prompt-Thin.ttf in Resources */,
@@ -536,6 +536,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to upload photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -549,7 +550,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hatto.Adopby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hattoo.Adoby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -571,6 +572,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Location Needed to view";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Needed to view";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to upload photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -584,7 +586,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hatto.Adopby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hattoo.Adoby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

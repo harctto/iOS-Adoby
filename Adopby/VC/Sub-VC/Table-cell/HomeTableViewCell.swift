@@ -34,7 +34,7 @@ class HomeTableViewCell: UITableViewCell {
         lbPetDescription.textColor = .black
         lbPetAddress.textColor = .black
         lbPetAge.textColor = .black
-        lbStatus.backgroundColor = UIColor.init(rgb: 0xFBE6A2)
+        lbStatus.textColor = .white
         contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0))
     }
 

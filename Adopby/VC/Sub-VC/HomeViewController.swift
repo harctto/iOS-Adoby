@@ -10,14 +10,14 @@ import Alamofire
 import AnimatableReload
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    // MARK: - Variable
     var currentUsername:[String] = []
     @IBOutlet weak var tableview: UITableView!
     @IBOutlet weak var lbUsername: UILabel!
     @IBOutlet weak var btnModal: UIButton!
     let refreshControl = UIRefreshControl()
     var countforrow:Int = 0
-    
+    // MARK: - setupUI
     func setupUI() {
         view.backgroundColor = UIColor.init(rgb: 0xFEF8E7)
         self.tableview.dataSource = self
@@ -35,7 +35,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableview.addSubview(refreshControl)
         btnModal.startAnimatingPressActions()
     }
-    
+    // MARK: - TableFunction
     func fetchDataForCellRow() {
         guard let url = URL(string: "https://adoby.glitch.me/petposts") else { return }
         AF.request(url,method: .get)
@@ -71,18 +71,37 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             { response in
                 let keepData:[PetPost] = response.value!
                 if keepData.indices.contains(0) {
-                    cell.lbPetName.text = keepData[safe: indexPath.row]?.petName
-                    cell.lbPetType.text = keepData[safe: indexPath.row]?.petType
+                    if keepData[safe: indexPath.row]?.petName == "" {
+                        if keepData[safe: indexPath.row]?.petColor.contains("สี") == true {
+                            cell.lbPetName.text = keepData[safe: indexPath.row]?.petColor
+                        } else {
+                            cell.lbPetName.text = "สี\(keepData[safe: indexPath.row]?.petColor ?? "")"
+                        }
+                    } else {
+                        cell.lbPetName.text = "ชื่อ: \(keepData[safe: indexPath.row]?.petName ?? "")"
+                    }
+                    if keepData[safe: indexPath.row]?.petType == "------ไม่ทราบ------" {
+                        cell.lbPetType.text = "พันธุ์: ไม่ทราบ"
+                    } else {
+                        cell.lbPetType.text = "พันธุ์: \(keepData[safe: indexPath.row]?.petType ?? "")"
+                    }
                     cell.lbPetAge.text = "\(keepData[safe: indexPath.row]?.petAge ?? "")"
                     cell.lbPetDescription.text = keepData[safe: indexPath.row]?.petpostDescription
-                    cell.lbPetAddress.text = keepData[safe: indexPath.row]?.petAddress
+                    cell.lbPetAddress.text = "เขต: \(keepData[safe: indexPath.row]?.petAddress ?? "")"
                     cell.imgPet.loadFrom(URLAddress: keepData[safe: indexPath.row]?.imgURL ?? "")
                     if keepData[safe: indexPath.row]?.status == "กำลังหาบ้าน" {
-                        cell.lbStatus.textColor = .init(red: 0, green: 150, blue: 0)
+                        cell.lbStatus.backgroundColor = .init(rgb: 0x749D40)
                         cell.lbStatus.text = "🐶 กำลังหาบ้าน"
-                    } else {
+                    } else if keepData[safe: indexPath.row]?.status == "มีบ้านแล้ว"{
+                        cell.lbStatus.backgroundColor = .init(rgb: 0xCB4224)
+                        cell.lbStatus.text = "🏠 มีบ้านแล้ว"
+                    } else if keepData[safe: indexPath.row]?.status == "จองแล้ว"{
+                        cell.lbStatus.backgroundColor = .init(rgb: 0xF7D154)
                         cell.lbStatus.textColor = .init(rgb: 0x7E6514)
-                        cell.lbStatus.text = "🐶 มีบ้านแล้ว"
+                        cell.lbStatus.text = "📌 จองแล้ว"
+                    } else {
+                        cell.lbStatus.backgroundColor = .white
+                        cell.lbStatus.text = ""
                     }
                 }
             }
@@ -99,7 +118,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.tableview.register(textFieldCell,
                                 forCellReuseIdentifier: "HomeTableViewCell")
     }
-    
+    // MARK: - viewDidLoad
     override func viewDidLoad() {
         let valueTabbar = tabBarController as! BaseTabbar
         currentUsername = valueTabbar.userData
@@ -117,8 +136,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         super.viewDidLoad()
     }
-    
+    // MARK: - viewWillAppear
     override func viewWillAppear(_ animated: Bool) {
+        tableview.reloadData()
         fetchDataForCellRow()
         countforrow = 0
         refreshControl.beginRefreshing()
@@ -128,7 +148,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.refreshControl.endRefreshing()
         }
     }
-    
+    // MARK: - refresh
     @objc func refresh(_ sender: AnyObject) {
         tableview.reloadData()
         fetchDataForCellRow()
