@@ -10,7 +10,7 @@ import Alamofire
 
 class PetPostTableViewController: UITableViewController {
     
-    var countforrow:Int = 1
+    var countforrow:Int = 0
     var currentUsername:Users!
     var keepData:[PetPost] = []
     
@@ -31,7 +31,7 @@ class PetPostTableViewController: UITableViewController {
         DispatchQueue.main.async {
             self.fetchDataForCellRow()
         }
-        countforrow = 1
+        countforrow = 0
         let backButton: UIBarButtonItem = UIBarButtonItem(
             title: "<",
             style: .plain,
@@ -57,32 +57,17 @@ class PetPostTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return countforrow
     }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        var height:CGFloat = CGFloat()
-        if indexPath.row == 0 {
-            height = 0
-        } else {
-            height = 177
-        }
-        return height
-    }
+
     
     func fetchDataForCellRow() {
-        guard let url = URL(string: "https://adoby.glitch.me/petposts") else { return }
+        guard let url = URL(string: "https://adoby.glitch.me/petposts/own/\(currentUsername.uid ?? "")") else { return }
         AF.request(url,method: .get)
             .responseDecodable(of: [PetPost].self)
         { response in
-            for i:PetPost in response.value! {
-                if self.currentUsername.uid == i.uid {
-                    self.countforrow += 1
-                }
-                else {
-                    //
-                }
-            }
+            self.countforrow = response.value!.count
         }
     }
+    
     
     private func registerTableViewCells() {
         let textFieldCell = UINib(nibName: "HomeTableViewCell",
@@ -93,15 +78,10 @@ class PetPostTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell") as? HomeTableViewCell {
-            let url = "https://adoby.glitch.me/petposts"
+            let url = "https://adoby.glitch.me/petposts/own/\(currentUsername.uid ?? "")"
             //decorate
             cell.layer.cornerRadius = 20
             cell.clipsToBounds = true
-            if indexPath.row == 0 {
-                cell.isHidden = true
-            } else {
-                cell.isHidden = false
-            }
             if indexPath.row % 2 == 0 {
                 cell.bgView.backgroundColor = .white
             }
@@ -112,48 +92,45 @@ class PetPostTableViewController: UITableViewController {
                 .responseDecodable(of: [PetPost].self)
             { response in
                 self.keepData = response.value!
-                if self.currentUsername.uid == self.keepData[safe: indexPath.row]?.uid {
-                    if self.keepData.indices.contains(0) {
-                        print(self.keepData[safe: indexPath.row])
-                        if self.keepData[safe: indexPath.row]?.petName == "" {
-                            if self.keepData[safe: indexPath.row]?.petColor.contains("สี") == true {
-                                cell.lbPetName.text = self.keepData[safe: indexPath.row]!.petColor
-                            } else {
-                                cell.lbPetName.text = "สี\(self.keepData[safe: indexPath.row]?.petColor ?? "")"
-                            }
+                if self.keepData.indices.contains(0) {
+                    if self.keepData[safe: indexPath.row]?.petName == "" {
+                        if self.keepData[safe: indexPath.row]?.petColor.contains("สี") == true {
+                            cell.lbPetName.text = self.keepData[safe: indexPath.row]!.petColor
                         } else {
-                            cell.lbPetName.text = "ชื่อ: \(self.keepData[safe: indexPath.row]?.petName ?? "")"
+                            cell.lbPetName.text = "สี\(self.keepData[safe: indexPath.row]?.petColor ?? "")"
                         }
-                        if self.keepData[safe: indexPath.row]?.petType == "------ไม่ทราบ------" {
-                            cell.lbPetType.text = "พันธุ์: ไม่ทราบ"
-                        } else {
-                            cell.lbPetType.text = "พันธุ์: \(self.keepData[safe: indexPath.row]?.petType ?? "")"
+                    } else {
+                        cell.lbPetName.text = "ชื่อ: \(self.keepData[safe: indexPath.row]?.petName ?? "")"
+                    }
+                    if self.keepData[safe: indexPath.row]?.petType == "------ไม่ทราบ------" {
+                        cell.lbPetType.text = "พันธุ์: ไม่ทราบ"
+                    } else {
+                        cell.lbPetType.text = "พันธุ์: \(self.keepData[safe: indexPath.row]?.petType ?? "")"
+                    }
+                    let colorCellSelected = UIView()
+                    colorCellSelected.backgroundColor  = UIColor.red.withAlphaComponent(0)
+                    cell.selectedBackgroundView = colorCellSelected
+                    cell.lbPetAge.text = "\(self.keepData[safe: indexPath.row]?.petAge ?? "")"
+                    cell.lbPetDescription.text = self.keepData[safe: indexPath.row]?.petpostDescription
+                    cell.lbPetAddress.text = "เขต: \(self.keepData[safe: indexPath.row]?.petAddress ?? "")"
+                    cell.imgPet.loadFrom(URLAddress: self.keepData[safe: indexPath.row]?.imgURL ?? "")
+                    if self.keepData[safe: indexPath.row]?.status == "กำลังหาบ้าน" {
+                        cell.lbStatus.backgroundColor = .init(rgb: 0x749D40)
+                        if dogType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
+                            cell.lbStatus.text = "🐶 กำลังหาบ้าน"
+                        } else if catType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
+                            cell.lbStatus.text = "🐱 กำลังหาบ้าน"
                         }
-                        let colorCellSelected = UIView()
-                        colorCellSelected.backgroundColor  = UIColor.red.withAlphaComponent(0)
-                        cell.selectedBackgroundView = colorCellSelected
-                        cell.lbPetAge.text = "\(self.keepData[safe: indexPath.row]?.petAge ?? "")"
-                        cell.lbPetDescription.text = self.keepData[safe: indexPath.row]?.petpostDescription
-                        cell.lbPetAddress.text = "เขต: \(self.keepData[safe: indexPath.row]?.petAddress ?? "")"
-                        cell.imgPet.loadFrom(URLAddress: self.keepData[safe: indexPath.row]?.imgURL ?? "")
-                        if self.keepData[safe: indexPath.row]?.status == "กำลังหาบ้าน" {
-                            cell.lbStatus.backgroundColor = .init(rgb: 0x749D40)
-                            if dogType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
-                                cell.lbStatus.text = "🐶 กำลังหาบ้าน"
-                            } else if catType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
-                                cell.lbStatus.text = "🐱 กำลังหาบ้าน"
-                            }
-                        } else if self.keepData[safe: indexPath.row]?.status == "มีบ้านแล้ว"{
-                            cell.lbStatus.backgroundColor = .init(rgb: 0xCB4224)
-                            cell.lbStatus.text = "🏠 มีบ้านแล้ว"
-                        } else if self.keepData[safe: indexPath.row]?.status == "จองแล้ว"{
-                            cell.lbStatus.backgroundColor = .init(rgb: 0xF7D154)
-                            cell.lbStatus.textColor = .init(rgb: 0x7E6514)
-                            cell.lbStatus.text = "📌 จองแล้ว"
-                        } else {
-                            cell.lbStatus.backgroundColor = .white
-                            cell.lbStatus.text = ""
-                        }
+                    } else if self.keepData[safe: indexPath.row]?.status == "มีบ้านแล้ว"{
+                        cell.lbStatus.backgroundColor = .init(rgb: 0xCB4224)
+                        cell.lbStatus.text = "🏠 มีบ้านแล้ว"
+                    } else if self.keepData[safe: indexPath.row]?.status == "จองแล้ว"{
+                        cell.lbStatus.backgroundColor = .init(rgb: 0xF7D154)
+                        cell.lbStatus.textColor = .init(rgb: 0x7E6514)
+                        cell.lbStatus.text = "📌 จองแล้ว"
+                    } else {
+                        cell.lbStatus.backgroundColor = .white
+                        cell.lbStatus.text = ""
                     }
                 }
             }
@@ -166,14 +143,14 @@ class PetPostTableViewController: UITableViewController {
         self.performSegue(withIdentifier: "sentEdit", sender: nil)
     }
     
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         if segue.identifier == "sentEdit" {
-             let sender = segue.destination as! PetPostEditViewController
-             sender.keepPostData = self.keepData[safe: tableView.indexPathForSelectedRow!.row]
-         }
-     }
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "sentEdit" {
+            let sender = segue.destination as! PetPostEditViewController
+            sender.keepPostData = self.keepData[safe: tableView.indexPathForSelectedRow!.row]
+        }
+    }
     
 }

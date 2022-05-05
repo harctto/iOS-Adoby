@@ -41,7 +41,7 @@ class ChatKitUiViewController: CometChatConversationList {
         currentUsername = valueTabbar.userData
         uid = currentUsername[0]
         self.LoadingStart()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.setUpChat()
             self.LoadingStop()
         }

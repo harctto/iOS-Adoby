@@ -117,9 +117,9 @@ class StatViewController: UIViewController, ChartViewDelegate {
                     entries.append(BarChartDataEntry(x: Double(x), y: Double(x)))
                     entries2.append(BarChartDataEntry(x: Double(y), y: Double(y)))
                     let set = BarChartDataSet(entries: entries,label: "กำลังตามหา")
-                    set.colors = [.init(rgb: 0xF7D154)]
+                    set.colors = [.init(rgb: 0xCB4224)]
                     let set2 = BarChartDataSet(entries: entries2,label: "เจอแล้ว")
-                    set2.colors = [.init(rgb: 0xCB4224)]
+                    set2.colors = [.init(rgb: 0xF7D154)]
                     let data = BarChartData(dataSets: [set,set2])
                     self.chartView.data = data
                     //label1

@@ -88,6 +88,7 @@ class PetPostEditViewController: UIViewController, UIImagePickerControllerDelega
             } else if catType.contains(keepPostData.petType) {
                 ddBtnStatus.setTitle("🐱 กำลังหาบ้าน", for: .normal)
             }
+            ddBtnStatus.backgroundColor = .init(rgb: 0x749D40)
             ddBtnStatus.setTitleColor(.init(rgb: 0x749D40), for: .normal)
             ddBtnStatus.setTitleColor(.white, for: .normal)
         } else if keepStatus == "มีบ้านแล้ว"{

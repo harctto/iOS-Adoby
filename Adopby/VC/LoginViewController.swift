@@ -106,13 +106,15 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         setupUI()
         hideKB()
+        currentUser = User(uid: "", name: "")
+        keepUserData = []
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         currentUser = User(uid: "", name: "")
-        
+        keepUserData = []
     }
 
     
