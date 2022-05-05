@@ -182,6 +182,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         refreshControl.beginRefreshing()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.lbUsername.text = currentUsername.firstname ?? ""
             self.LoadingStop()
             self.tableview.reloadData()
             AnimatableReload.reload(tableView: self.tableview, animationDirection: "up")
