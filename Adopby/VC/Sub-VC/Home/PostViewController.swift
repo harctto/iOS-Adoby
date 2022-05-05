@@ -63,24 +63,26 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate & UI
         imgShow.layer.masksToBounds = true
         imgShow.layer.cornerRadius = 20
         let dogImage = image(
-            with: (UIImage(named: "dog.png")),
+            with: (UIImage(named: "dog-1.png")),
             scaledTo: CGSize(width: 40, height: 40)
         )
-//        let catImage = image(
-//            with: UIImage(named: "cat.png"),
-//            scaledTo: CGSize(width: 40, height: 40)
-//        )
+        let catImage = image(
+            with: UIImage(named: "cat-1.png"),
+            scaledTo: CGSize(width: 40, height: 40)
+        )
         sgDogCat.setImage(dogImage, forSegmentAt: 0)
-//        sgDogCat.setImage(catImage, forSegmentAt: 1)
+        sgDogCat.setImage(catImage, forSegmentAt: 1)
     }
     // MARK: - function
     @IBAction func setupDogCat(_ sender: Any) {
         switch sgDogCat.selectedSegmentIndex {
         case 0:
+            ddBtnType.isUserInteractionEnabled = true
             ddType.dataSource = dogType
             ddBtnType.isEnabled = true
             ddBtnType.setTitle("พันธุ์", for: .normal)
         case 1:
+            ddBtnType.isUserInteractionEnabled = true
             ddType.dataSource = catType
             ddBtnType.isEnabled = true
             ddBtnType.setTitle("พันธุ์", for: .normal)

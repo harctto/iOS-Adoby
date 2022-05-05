@@ -55,6 +55,16 @@ class PostMissingViewController: UIViewController, UIImagePickerControllerDelega
         imgPreview.layer.cornerRadius = 20
         btnPetType.backgroundColor = .gray
         btnPetType.setTitleColor(.init(rgb: 0xFBE6A2), for: .normal)
+        let dogImage = image(
+            with: (UIImage(named: "dog-1.png")),
+            scaledTo: CGSize(width: 40, height: 40)
+        )
+        let catImage = image(
+            with: UIImage(named: "cat-1.png"),
+            scaledTo: CGSize(width: 40, height: 40)
+        )
+        sgPetType.setImage(dogImage, forSegmentAt: 0)
+        sgPetType.setImage(catImage, forSegmentAt: 1)
     }
     
     @IBAction func setupDogCat(_ sender: Any) {

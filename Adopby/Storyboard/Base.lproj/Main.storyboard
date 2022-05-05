@@ -644,8 +644,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="q0e-M7-sMw" kind="relationship" relationship="viewControllers" id="Vgi-CH-VAF"/>
-                        <segue destination="IVw-ki-SmI" kind="relationship" relationship="viewControllers" id="4n4-wf-si6"/>
                         <segue destination="daQ-EK-44n" kind="relationship" relationship="viewControllers" id="IJw-CR-ScE"/>
+                        <segue destination="IVw-ki-SmI" kind="relationship" relationship="viewControllers" id="4n4-wf-si6"/>
                         <segue destination="ib6-O2-TUc" kind="relationship" relationship="viewControllers" id="RXL-Pq-GGR"/>
                         <segue destination="sFL-P1-Ecb" kind="relationship" relationship="viewControllers" id="I3V-xc-vr4"/>
                     </connections>
