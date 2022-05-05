@@ -14,17 +14,30 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var lbName: UILabel!
     @IBOutlet weak var btnEditProfile: UIButton!
     @IBOutlet weak var btnEditPost: UIButton!
+    @IBOutlet weak var btnEditLost: UIButton!
     @IBOutlet weak var btnStatFindHome: UIButton!
     @IBOutlet weak var btnStatMissing: UIButton!
     @IBOutlet weak var btnLogout: UIButton!
     //variable
+    @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var icon1: UIImageView!
+    @IBOutlet weak var icon2: UIImageView!
+    @IBOutlet weak var icon3: UIImageView!
+    @IBOutlet weak var icon4: UIImageView!
     var currentUsername:Users!
     
     @IBOutlet weak var viewUnderline: UIView!
+    
+    func iconDisplayed(ic: [UIImageView]) {
+        for i in ic {
+            i.isHidden = false
+        }
+    }
+    
     func setupUI() {
         cornerRadiusSetup(
             tf: [],
-            btn: [btnEditProfile,btnEditPost,btnStatMissing,btnStatFindHome,btnLogout],
+            btn: [btnEditProfile,btnEditPost,btnEditLost,btnStatMissing,btnStatFindHome,btnLogout],
             r: 20
         )
         let btnFont:UIFont = .init(name: "Prompt-Medium", size: 28)!
@@ -37,6 +50,7 @@ class ProfileViewController: UIViewController {
         viewUnderline.isHidden = false
         viewUnderline.layer.cornerRadius = 5
         viewTop.isHidden = false
+        iconDisplayed(ic: [icon,icon1,icon2,icon3,icon4])
     }
     
     override func viewDidLoad() {
@@ -93,6 +107,11 @@ class ProfileViewController: UIViewController {
         if segue.identifier == "sendPetPost" {
             let navigationContoller = segue.destination as! UINavigationController
             let receiverViewController = navigationContoller.topViewController as! PetPostTableViewController
+            receiverViewController.currentUsername = currentUsername
+        }
+        if segue.identifier == "sendPetLost" {
+            let navigationContoller = segue.destination as! UINavigationController
+            let receiverViewController = navigationContoller.topViewController as! PetLostTableViewController
             receiverViewController.currentUsername = currentUsername
         }
     }

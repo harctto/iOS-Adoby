@@ -86,11 +86,7 @@ class MissingViewController: UIViewController, UITableViewDataSource, UITableVie
                     //
                     if self.keepData[safe: indexPath.row]?.status == "กำลังตามหา" {
                         cell.lbStatus.backgroundColor = .init(rgb: 0xCB4224)
-                        if dogType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
-                            cell.lbStatus.text = "🐶 กำลังตามหา"
-                        } else if catType.contains(self.keepData[safe: indexPath.row]?.petType ?? "") {
-                            cell.lbStatus.text = "🐱 กำลังตามหา"
-                        }
+                        cell.lbStatus.text = "😿 กำลังตามหา"
                     } else if self.keepData[safe: indexPath.row]?.status == "เจอแล้ว"{
                         cell.lbStatus.backgroundColor = .init(rgb: 0x749D40)
                         cell.lbStatus.text = "🏠 เจอแล้ว"

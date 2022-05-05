@@ -29,8 +29,9 @@ class ChatKitUiViewController: CometChatConversationList {
         DispatchQueue.main.async {
             let conversationList = CometChatConversationList()
             conversationList.set(title:"Chats", mode: .automatic)
-            UIKitSettings.primaryColor = UIColor.init(rgb: 0x7E6514)
+            UIKitSettings.primaryColor = .init(rgb: 0x7E6514)
             UIKitSettings.chatListMode = .user
+            UIKitSettings.backgroundColor = .init(rgb: 0xF7D154)
         }
     }
     

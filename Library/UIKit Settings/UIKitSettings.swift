@@ -62,7 +62,7 @@ public struct UIKitSettings {
     static var EmailIDSelectedColor: UIColor = #colorLiteral(red: 0.9529411765, green: 0.4078431373, blue: 0, alpha: 1)
     static var foregroundColor: UIColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)  //not added
     static var backgroundColor: UIColor = #colorLiteral(red: 0.9960784314, green: 0.9725490196, blue: 0.9058823529, alpha: 1)  //not added
-    static var overrideSystemBackgroundColor: SwitchMode = .disabled  //not added
+    static var overrideSystemBackgroundColor: SwitchMode = .enabled  //not added
     
     // sidebar
     //--> 1. Listing
@@ -76,7 +76,7 @@ public struct UIKitSettings {
     static var users: SwitchMode = .enabled
     static var userSettings: SwitchMode = .enabled
     
-     
+    
     //Main
     static var publicGroup: SwitchMode = .disabled
     static var privateGroup: SwitchMode = .disabled

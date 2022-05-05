@@ -16,6 +16,7 @@ class BaseTabbar: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         loadView()
         view.backgroundColor = .init(rgb: 0xFEF8E7)
+        self.selectedIndex = 2
         //updateStatusCometChat
         let currentUser = User(uid: userData[0], name: userData[1])
         CometChat.updateCurrentUserDetails(user: currentUser, onSuccess: { user in

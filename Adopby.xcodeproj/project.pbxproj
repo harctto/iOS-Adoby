@@ -21,6 +21,16 @@
 		C43DEE8B27FF29C600CDDBA3 /* md_Hospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */; };
 		C444D89827FF546800187A11 /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444D89727FF546800187A11 /* type.swift */; };
 		C44B17CA2823CB9A00F60CAB /* PetPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B17C92823CB9A00F60CAB /* PetPostTableViewController.swift */; };
+		C44B17CC2823F0F300F60CAB /* PetPostEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B17CB2823F0F300F60CAB /* PetPostEditViewController.swift */; };
+		C44B17CF2823FA0100F60CAB /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17CD2823FA0000F60CAB /* cat.png */; };
+		C44B17D02823FA0100F60CAB /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17CE2823FA0000F60CAB /* dog.png */; };
+		C44B17D2282406BB00F60CAB /* PetLostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B17D1282406BB00F60CAB /* PetLostTableViewController.swift */; };
+		C44B17D4282407E300F60CAB /* PetLostEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B17D3282407E300F60CAB /* PetLostEditViewController.swift */; };
+		C44B17DA282414BD00F60CAB /* bar-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17D5282414BC00F60CAB /* bar-graph.png */; };
+		C44B17DB282414BD00F60CAB /* editing.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17D6282414BC00F60CAB /* editing.png */; };
+		C44B17DC282414BD00F60CAB /* editProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17D7282414BD00F60CAB /* editProfile.png */; };
+		C44B17DD282414BD00F60CAB /* pet-friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17D8282414BD00F60CAB /* pet-friendly.png */; };
+		C44B17DE282414BD00F60CAB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B17D9282414BD00F60CAB /* search.png */; };
 		C451E81727FF94D200B983DF /* MissingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451E81527FF94D200B983DF /* MissingTableViewCell.swift */; };
 		C452B29C28232C0900A31507 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452B29B28232C0900A31507 /* StatViewController.swift */; };
 		C454325B281BD6C4006DEF0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C454325A281BD6C4006DEF0E /* GoogleService-Info.plist */; };
@@ -807,8 +817,6 @@
 		C48D831D281EAB60006E1961 /* addIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D8014281EAB5E006E1961 /* addIcon@3x.png */; };
 		C48D831E281EAB60006E1961 /* addIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D8015281EAB5E006E1961 /* addIcon.png */; };
 		C48D831F281EAB60006E1961 /* UIKitSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D8017281EAB5E006E1961 /* UIKitSettings.swift */; };
-		C48D8325281EABC2006E1961 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D8323281EABC1006E1961 /* cat.png */; };
-		C48D8326281EABC2006E1961 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = C48D8324281EABC1006E1961 /* dog.png */; };
 		C48D8328281EAC20006E1961 /* ChatKitUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D8327281EAC20006E1961 /* ChatKitUiViewController.swift */; };
 		C48D981E27FE0AFD00CE01F0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */; };
 		C48D982027FE0B0900CE01F0 /* MissingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D981F27FE0B0900CE01F0 /* MissingViewController.swift */; };
@@ -842,6 +850,16 @@
 		C43DEE8A27FF29C600CDDBA3 /* md_Hospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md_Hospitals.swift; sourceTree = "<group>"; };
 		C444D89727FF546800187A11 /* type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
 		C44B17C92823CB9A00F60CAB /* PetPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPostTableViewController.swift; sourceTree = "<group>"; };
+		C44B17CB2823F0F300F60CAB /* PetPostEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPostEditViewController.swift; sourceTree = "<group>"; };
+		C44B17CD2823FA0000F60CAB /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		C44B17CE2823FA0000F60CAB /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		C44B17D1282406BB00F60CAB /* PetLostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLostTableViewController.swift; sourceTree = "<group>"; };
+		C44B17D3282407E300F60CAB /* PetLostEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLostEditViewController.swift; sourceTree = "<group>"; };
+		C44B17D5282414BC00F60CAB /* bar-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-graph.png"; sourceTree = "<group>"; };
+		C44B17D6282414BC00F60CAB /* editing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editing.png; sourceTree = "<group>"; };
+		C44B17D7282414BD00F60CAB /* editProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editProfile.png; sourceTree = "<group>"; };
+		C44B17D8282414BD00F60CAB /* pet-friendly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pet-friendly.png"; sourceTree = "<group>"; };
+		C44B17D9282414BD00F60CAB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		C451E81527FF94D200B983DF /* MissingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingTableViewCell.swift; sourceTree = "<group>"; };
 		C452B29B28232C0900A31507 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
 		C454325A281BD6C4006DEF0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -1642,8 +1660,6 @@
 		C48D8014281EAB5E006E1961 /* addIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addIcon@3x.png"; sourceTree = "<group>"; };
 		C48D8015281EAB5E006E1961 /* addIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addIcon.png; sourceTree = "<group>"; };
 		C48D8017281EAB5E006E1961 /* UIKitSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitSettings.swift; sourceTree = "<group>"; };
-		C48D8323281EABC1006E1961 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
-		C48D8324281EABC1006E1961 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 		C48D8327281EAC20006E1961 /* ChatKitUiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatKitUiViewController.swift; sourceTree = "<group>"; };
 		C48D981D27FE0AFD00CE01F0 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C48D981F27FE0B0900CE01F0 /* MissingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingViewController.swift; sourceTree = "<group>"; };
@@ -1727,6 +1743,9 @@
 				C47E3BAD282301D8004CFB96 /* EditProfileViewController.swift */,
 				C452B29B28232C0900A31507 /* StatViewController.swift */,
 				C44B17C92823CB9A00F60CAB /* PetPostTableViewController.swift */,
+				C44B17CB2823F0F300F60CAB /* PetPostEditViewController.swift */,
+				C44B17D1282406BB00F60CAB /* PetLostTableViewController.swift */,
+				C44B17D3282407E300F60CAB /* PetLostEditViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -3572,8 +3591,13 @@
 		C4C1930427FF626400E47779 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				C48D8323281EABC1006E1961 /* cat.png */,
-				C48D8324281EABC1006E1961 /* dog.png */,
+				C44B17CD2823FA0000F60CAB /* cat.png */,
+				C44B17CE2823FA0000F60CAB /* dog.png */,
+				C44B17D5282414BC00F60CAB /* bar-graph.png */,
+				C44B17D7282414BD00F60CAB /* editProfile.png */,
+				C44B17D6282414BC00F60CAB /* editing.png */,
+				C44B17D8282414BD00F60CAB /* pet-friendly.png */,
+				C44B17D9282414BD00F60CAB /* search.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -3708,7 +3732,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48D8326281EABC2006E1961 /* dog.png in Resources */,
 				C48D8078281EAB5E006E1961 /* CometChatReceiverPollMessageBubble.xib in Resources */,
 				C48D824A281EAB60006E1961 /* 􀈕@2x.png in Resources */,
 				C48D80AD281EAB5E006E1961 /* message-delivered@2x.png in Resources */,
@@ -3738,6 +3761,7 @@
 				C48D82E9281EAB60006E1961 /* incomingVideo@3x.png in Resources */,
 				C48D805C281EAB5E006E1961 /* cometchatui-users.png in Resources */,
 				C48D829E281EAB60006E1961 /* 􀈎@2x.png in Resources */,
+				C44B17DC282414BD00F60CAB /* editProfile.png in Resources */,
 				C48D82F5281EAB60006E1961 /* incomingVideo.png in Resources */,
 				C48D8052281EAB5E006E1961 /* CometChatIncomingCall.xib in Resources */,
 				C48D80E1281EAB5F006E1961 /* messages-image.png in Resources */,
@@ -3793,6 +3817,7 @@
 				C48D807D281EAB5E006E1961 /* CometChatSenderImageMessageBubble.xib in Resources */,
 				C48D809E281EAB5E006E1961 /* messages-attach.png in Resources */,
 				C48D82C2281EAB60006E1961 /* chats@3x.png in Resources */,
+				C44B17DA282414BD00F60CAB /* bar-graph.png in Resources */,
 				C48D80FA281EAB5F006E1961 /* messages-polls@4x.png in Resources */,
 				C48D8084281EAB5E006E1961 /* CometChatReceiverTextMessageBubble.xib in Resources */,
 				C48D802C281EAB5E006E1961 /* video-call@2x.png in Resources */,
@@ -3810,6 +3835,7 @@
 				C48D80A4281EAB5E006E1961 /* send-message-in-private@4x.png in Resources */,
 				C48D80C8281EAB5F006E1961 /* messages-attach@3x.png in Resources */,
 				C48D8292281EAB60006E1961 /* translate@3x.png in Resources */,
+				C44B17DE282414BD00F60CAB /* search.png in Resources */,
 				C48D819D281EAB5F006E1961 /* chats-message-sent@2x.png in Resources */,
 				C48D810D281EAB5F006E1961 /* messages-file-upload.png in Resources */,
 				C48D8259281EAB60006E1961 /* 􀈕@3x.png in Resources */,
@@ -4031,6 +4057,7 @@
 				C48D808A281EAB5E006E1961 /* CometChatReceiverFileMessageBubble.xib in Resources */,
 				C48D8047281EAB5E006E1961 /* CometChatCreateMeetingView.xib in Resources */,
 				C48D8312281EAB60006E1961 /* 􀋚@2x.png in Resources */,
+				C44B17DB282414BD00F60CAB /* editing.png in Resources */,
 				C48D8265281EAB60006E1961 /* sent@3x.png in Resources */,
 				C48D831E281EAB60006E1961 /* addIcon.png in Resources */,
 				C48D81DE281EAB5F006E1961 /* successIconLight.png in Resources */,
@@ -4050,6 +4077,7 @@
 				C48D81EB281EAB5F006E1961 /* successIcon.png in Resources */,
 				C48D825A281EAB60006E1961 /* reply-private@2x.png in Resources */,
 				C48D818D281EAB5F006E1961 /* CometChatCreateGroup.xib in Resources */,
+				C44B17D02823FA0100F60CAB /* dog.png in Resources */,
 				C48D8115281EAB5F006E1961 /* messages-collaborative-whiteboard@2x.png in Resources */,
 				C48D80C9281EAB5F006E1961 /* send-message-in-private@2x.png in Resources */,
 				C48D81DD281EAB5F006E1961 /* infoIconLight.png in Resources */,
@@ -4073,6 +4101,7 @@
 				C48D8094281EAB5E006E1961 /* CometChatSenderVideoMessageBubble.xib in Resources */,
 				C48D81D6281EAB5F006E1961 /* successIconSubtle.png in Resources */,
 				C48D82B5281EAB60006E1961 /* delivered@3x.png in Resources */,
+				C44B17DD282414BD00F60CAB /* pet-friendly.png in Resources */,
 				C48D82BF281EAB60006E1961 /* blueTick@3x.png in Resources */,
 				C48D822D281EAB5F006E1961 /* OutgoingMessage.wav in Resources */,
 				C48D80FB281EAB5F006E1961 /* messages-emoji@3x.png in Resources */,
@@ -4154,6 +4183,7 @@
 				C48D816E281EAB5F006E1961 /* CometChatGroupListItem.xib in Resources */,
 				C48D8124281EAB5F006E1961 /* ReactionCell.xib in Resources */,
 				C48D8235281EAB5F006E1961 /* send@3x.png in Resources */,
+				C44B17CF2823FA0100F60CAB /* cat.png in Resources */,
 				C48D805F281EAB5E006E1961 /* cometchatui-calls@2x.png in Resources */,
 				C427704E27E4BF9400E31569 /* Prompt-SemiBold.ttf in Resources */,
 				C48D82C9281EAB60006E1961 /* more@2x.png in Resources */,
@@ -4271,7 +4301,6 @@
 				C48D80F1281EAB5F006E1961 /* messages-location@3x.png in Resources */,
 				C48D819C281EAB5F006E1961 /* chats-message-sent.png in Resources */,
 				C48D82B3281EAB60006E1961 /* play.png in Resources */,
-				C48D8325281EABC2006E1961 /* cat.png in Resources */,
 				C48D8027281EAB5E006E1961 /* incoming-video-call@2x.png in Resources */,
 				C48D8031281EAB5E006E1961 /* outgoing-video-call@2x.png in Resources */,
 				C48D80B0281EAB5E006E1961 /* messages-share@2x.png in Resources */,
@@ -4406,6 +4435,7 @@
 				C48D8153281EAB5F006E1961 /* CometChatForwardMessageList.swift in Sources */,
 				C48D8076281EAB5E006E1961 /* CometChatSenderPollMessageBubble.swift in Sources */,
 				C48D81C2281EAB5F006E1961 /* UIViewController+Extensions.swift in Sources */,
+				C44B17D4282407E300F60CAB /* PetLostEditViewController.swift in Sources */,
 				C48D813F281EAB5F006E1961 /* UserGroupHeaderView.swift in Sources */,
 				C48D8086281EAB5E006E1961 /* CometChatActionMessageBubble.swift in Sources */,
 				C48D816C281EAB5F006E1961 /* CometChatGroupList.swift in Sources */,
@@ -4430,6 +4460,7 @@
 				C48D821F281EAB5F006E1961 /* ViewModel.swift in Sources */,
 				C48D8164281EAB5F006E1961 /* CometChatLanguageBundle.swift in Sources */,
 				C48D8049281EAB5E006E1961 /* CometChatMeetingView.swift in Sources */,
+				C44B17CC2823F0F300F60CAB /* PetPostEditViewController.swift in Sources */,
 				C48D81C0281EAB5F006E1961 /* KeyboardTrackingView.swift in Sources */,
 				C48D8168281EAB5F006E1961 /* CometChatSharedMedia.swift in Sources */,
 				C48D8160281EAB5F006E1961 /* URLSessionTask+Cancellable.swift in Sources */,
@@ -4474,6 +4505,7 @@
 				C48D81FC281EAB5F006E1961 /* BackgroundViewable.swift in Sources */,
 				C48D81F8281EAB5F006E1961 /* MarginAdjustable.swift in Sources */,
 				C48D8161281EAB5F006E1961 /* CometChatSoundManager.swift in Sources */,
+				C44B17D2282406BB00F60CAB /* PetLostTableViewController.swift in Sources */,
 				C48D81BA281EAB5F006E1961 /* CometChatNotificationsItem.swift in Sources */,
 				C48D8184281EAB5F006E1961 /* CometChatAddMembers.swift in Sources */,
 				C48D8186281EAB5F006E1961 /* CometChatGroupDetail.swift in Sources */,

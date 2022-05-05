@@ -355,7 +355,7 @@ public class CometChatStartConversation: UIViewController {
      */
     private func setupTableView() {
         if #available(iOS 13.0, *) {
-            view.backgroundColor = .systemBackground
+            view.backgroundColor = .init(rgb: 0xF7D154)
             activityIndicator = UIActivityIndicatorView(style: .medium)
         } else {
             activityIndicator = UIActivityIndicatorView(style: .gray)
@@ -641,7 +641,7 @@ extension CometChatStartConversation: UITableViewDelegate , UITableViewDataSourc
             }
             if #available(iOS 13.0, *) {
                 sectionTitle?.textColor = .lightGray
-                returnedView.backgroundColor = .systemBackground
+                returnedView.backgroundColor = .init(rgb: 0xF7D154)
             } else {}
             returnedView.addSubview(sectionTitle!)
             return returnedView

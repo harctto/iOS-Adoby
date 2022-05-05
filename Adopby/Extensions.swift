@@ -42,6 +42,7 @@ extension UIViewController {
         for b in btn {
             b.layer.cornerRadius = r
             b.isHidden = false
+            b.startAnimatingPressActions()
         }
     }
     //DefaultDropdown
@@ -143,6 +144,13 @@ extension String {
         }
         
         return uniqueString
+    }
+    
+    subscript(_ range: NSRange) -> String {
+        let start = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let end = self.index(self.startIndex, offsetBy: range.upperBound)
+        let subString = self[start..<end]
+        return String(subString)
     }
     
     static func getFormattedDate(dateFormString: String) -> String {
