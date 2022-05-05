@@ -43,7 +43,6 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
             encoder: encoder,
             headers: _headers
         ).responseDecodable(of: Users.self) { response in
-            print(response.result)
             if (
                 self.tfUsername.text != "" &&
                 self.tfPassword.text != "" &&

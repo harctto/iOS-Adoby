@@ -25,6 +25,9 @@ class PetLostTableViewController: UITableViewController {
         UINavigationBar.appearance().titleTextAttributes = attrs
         UINavigationBar.appearance().backgroundColor = .init(rgb: 0xF7D154)
         view.backgroundColor = .init(rgb: 0xF7D154)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.tableView.reloadData()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,7 +45,7 @@ class PetLostTableViewController: UITableViewController {
         self.navigationItem.leftBarButtonItem = backButton;
         super.viewWillAppear(animated);
         LoadingStart()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.tableView.reloadData()
             self.LoadingStop()
         }
@@ -76,7 +79,6 @@ class PetLostTableViewController: UITableViewController {
             for i:Petlost in response.value! {
                 if self.currentUsername.uid == i.uid {
                     self.countforrow += 1
-                    print(self.countforrow)
                 }
                 else {
                     //
@@ -108,8 +110,9 @@ class PetLostTableViewController: UITableViewController {
                 .responseDecodable(of: [Petlost].self)
             { response in
                 self.keepData = response.value!
-                if self.currentUsername.uid == self.keepData[safe: indexPath.row]?.uid {
+                if self.currentUsername.uid! == self.keepData[safe: indexPath.row]?.uid {
                     if self.keepData.indices.contains(0) {
+                        print(self.keepData[safe: indexPath.row])
                         if self.keepData[safe: indexPath.row]?.petName == "" {
                             if self.keepData[safe: indexPath.row]?.petColor.contains("สี") == true {
                                 cell.lbPetName.text = self.keepData[safe: indexPath.row]?.petColor

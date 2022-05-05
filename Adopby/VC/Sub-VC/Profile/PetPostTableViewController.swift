@@ -113,11 +113,11 @@ class PetPostTableViewController: UITableViewController {
             { response in
                 self.keepData = response.value!
                 if self.currentUsername.uid == self.keepData[safe: indexPath.row]?.uid {
-                    print(indexPath.row)
                     if self.keepData.indices.contains(0) {
+                        print(self.keepData[safe: indexPath.row])
                         if self.keepData[safe: indexPath.row]?.petName == "" {
                             if self.keepData[safe: indexPath.row]?.petColor.contains("สี") == true {
-                                cell.lbPetName.text = self.keepData[safe: indexPath.row]?.petColor
+                                cell.lbPetName.text = self.keepData[safe: indexPath.row]!.petColor
                             } else {
                                 cell.lbPetName.text = "สี\(self.keepData[safe: indexPath.row]?.petColor ?? "")"
                             }
