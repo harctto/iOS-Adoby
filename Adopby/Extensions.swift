@@ -5,6 +5,8 @@
 //  Created by Hatto on 17/3/2565 BE.
 //
 import UIKit
+import DropDown
+import Alamofire
 
 extension UIColor {
     convenience init(red: Int, green: Int, blue: Int) {
@@ -31,6 +33,34 @@ extension UIViewController {
     }
     @objc func dissmissmykb(){
         view.endEditing(true)
+    }
+    func cornerRadiusSetup( tf:[UITextField], btn:[UIButton], r:CGFloat ) {
+        for t in tf {
+            t.layer.cornerRadius = r
+            t.isHidden = false
+        }
+        for b in btn {
+            b.layer.cornerRadius = r
+            b.isHidden = false
+        }
+    }
+    //DefaultDropdown
+    func setupDefaultDropdown() {
+        DropDown.appearance().setupCornerRadius(20)
+        DropDown.appearance().textFont = UIFont(name: "Prompt-Regular", size: 16)!
+        DropDown.appearance().backgroundColor = UIColor.init(rgb: 0xFBE6A2)
+        DropDown.appearance().textColor = UIColor.init(rgb: 0x7E6514)
+        DropDown.appearance().selectedTextColor = UIColor.init(rgb: 0xFBE6A2)
+        DropDown.appearance().selectionBackgroundColor = UIColor.init(rgb: 0x7E6514)
+    }
+    //adjust
+    func adjustDropdown( dd: DropDown, view: UIButton ) {
+        dd.anchorView = view
+        dd.direction = .bottom
+        dd.dismissMode = .automatic
+        dd.selectionAction = { index, title in
+            view.setTitle(title, for: .normal)
+        }
     }
 }
 
@@ -115,6 +145,16 @@ extension String {
         return uniqueString
     }
     
+    static func getFormattedDate(dateFormString: String) -> String {
+        let dateformat = DateFormatter()
+        dateformat.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+        let date = dateformat.date(from: dateFormString)!
+        
+        dateformat.dateFormat = "d MMM, yyy (h:mm a)"
+        let dateString = dateformat.string(from: date)
+        return dateString
+    }
+    
 }
 
 struct ProgressDialog {
@@ -135,7 +175,7 @@ extension UIViewController{
         
         let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
         loadingIndicator.hidesWhenStopped = true
-        loadingIndicator.style = UIActivityIndicatorView.Style.medium
+        loadingIndicator.style = UIActivityIndicatorView.Style.large
         loadingIndicator.startAnimating();
         
         ProgressDialog.alert.view.addSubview(loadingIndicator)

@@ -90,12 +90,12 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="กำลังหาบ้าน" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnL-oX-Ew4">
-                        <rect key="frame" x="11" y="144" width="85" height="22"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnL-oX-Ew4">
+                        <rect key="frame" x="11" y="144" width="113" height="22"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="22" id="65R-Fo-zab"/>
-                            <constraint firstAttribute="width" constant="85" id="Vs6-AO-S2g"/>
+                            <constraint firstAttribute="width" constant="113" id="JZN-Ax-m6h"/>
+                            <constraint firstAttribute="height" constant="22" id="uvR-bI-v7Q"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="13"/>
                         <nil key="textColor"/>
@@ -115,16 +115,16 @@
                     <constraint firstAttribute="bottom" secondItem="Y3r-GU-zcg" secondAttribute="bottom" id="KUI-3s-Ebn"/>
                     <constraint firstItem="uK9-0i-beU" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="MpV-AK-sIx"/>
                     <constraint firstAttribute="trailing" secondItem="YX5-te-Vtg" secondAttribute="trailing" constant="6" id="NOB-5F-BRn"/>
+                    <constraint firstAttribute="bottom" secondItem="lnL-oX-Ew4" secondAttribute="bottom" constant="11" id="OaN-pf-ouH"/>
                     <constraint firstItem="bGi-rd-rLV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QKv-vv-jx5"/>
                     <constraint firstItem="MZi-3i-wUn" firstAttribute="leading" secondItem="7Yp-qM-DKK" secondAttribute="trailing" constant="4.5" id="R0w-xt-SLP"/>
                     <constraint firstAttribute="bottom" secondItem="vtQ-09-pdy" secondAttribute="bottom" constant="11" id="U9F-NN-WxT"/>
-                    <constraint firstAttribute="bottom" secondItem="lnL-oX-Ew4" secondAttribute="bottom" constant="11" id="bb2-ON-y4I"/>
                     <constraint firstItem="vtQ-09-pdy" firstAttribute="top" secondItem="cjD-2D-EFI" secondAttribute="bottom" id="dTM-nc-nZH"/>
                     <constraint firstItem="Y3r-GU-zcg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dcR-AE-wc8"/>
+                    <constraint firstItem="lnL-oX-Ew4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="dh5-8F-2cX"/>
                     <constraint firstItem="YX5-te-Vtg" firstAttribute="top" secondItem="ICW-LB-5zH" secondAttribute="bottom" constant="1" id="eBL-8u-r5n"/>
                     <constraint firstAttribute="trailing" secondItem="MZi-3i-wUn" secondAttribute="trailing" constant="9" id="eHj-Vj-1sY"/>
                     <constraint firstItem="YX5-te-Vtg" firstAttribute="leading" secondItem="Y3r-GU-zcg" secondAttribute="trailing" constant="8" symbolic="YES" id="fUz-ZZ-dZR"/>
-                    <constraint firstItem="lnL-oX-Ew4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="hhU-k9-sno"/>
                     <constraint firstItem="MZi-3i-wUn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="jhK-Oo-mUC"/>
                     <constraint firstAttribute="trailing" secondItem="uK9-0i-beU" secondAttribute="trailing" constant="6" id="mhB-7Z-cfN"/>
                     <constraint firstItem="7Yp-qM-DKK" firstAttribute="leading" secondItem="ICW-LB-5zH" secondAttribute="trailing" constant="6" id="pRm-Pm-t22"/>

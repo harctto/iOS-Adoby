@@ -26,8 +26,9 @@ class MissingTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        lbStatus.layer.cornerRadius = 5
         backgroundColor = .clear
+        lbStatus.layer.cornerRadius = 5
+        lbStatus.layer.masksToBounds = true
         imgPet.layer.cornerRadius = 10
         lbPetName.textColor = .black
         lbPetType.textColor = .black
@@ -35,6 +36,7 @@ class MissingTableViewCell: UITableViewCell {
         lbPetDescription.textColor = .black
         lbPetAge.textColor = .black
         lbPrice.textColor = .black
+        lbStatus.textColor = .white
         contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0))
     }
     

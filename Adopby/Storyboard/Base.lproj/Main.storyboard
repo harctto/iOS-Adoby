@@ -57,6 +57,11 @@
                                 <color key="textColor" red="0.49411764705882355" green="0.396078431372549" blue="0.078431372549019607" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="รหัสผ่าน" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sw5-eN-SQi">
                                 <rect key="frame" x="45" y="251" width="284" height="47"/>
@@ -66,6 +71,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ยืนยันรหัสผ่าน" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5GE-Vz-EI1">
                                 <rect key="frame" x="45" y="318" width="284" height="47"/>
@@ -75,6 +85,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อจริง" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9n-ZA-7H6">
                                 <rect key="frame" x="45" y="385" width="284" height="47"/>
@@ -84,6 +99,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="นามสกุล" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-5T-7xR">
                                 <rect key="frame" x="45" y="452" width="284" height="47"/>
@@ -93,6 +113,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ที่อยู่" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R1F-kj-dme">
                                 <rect key="frame" x="45" y="519" width="284" height="47"/>
@@ -102,6 +127,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="เบอร์โทร" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oxu-lH-kdA">
                                 <rect key="frame" x="45" y="586" width="284" height="47"/>
@@ -111,6 +141,11 @@
                                 <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="0.64000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-Oy-W1n">
                                 <rect key="frame" x="45" y="650" width="284" height="68"/>
@@ -175,14 +210,19 @@
                                         <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hatto" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TxD-RA-7KC">
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TxD-RA-7KC">
                                         <rect key="frame" x="40" y="61" width="294" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.91372549020000005" green="0.46274509800000002" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1234" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LxS-Ya-pTS">
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LxS-Ya-pTS">
                                         <rect key="frame" x="39" y="145" width="294" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.91372549020000005" green="0.46274509800000002" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -259,29 +299,11 @@
             </objects>
             <point key="canvasLocation" x="104.8" y="107.88177339901478"/>
         </scene>
-        <!--Chat View Controller-->
-        <scene sceneID="6s9-vg-JZH">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Io1-aK-NEI" customClass="ChatViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zta-pp-U9A">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="hM9-fm-ShZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" id="fgg-Te-zgJ">
-                        <imageReference key="image" image="bubble.left.and.bubble.right" catalog="system" symbolScale="default"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rqc-L4-ZAR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1857" y="466"/>
-        </scene>
         <!--Home View Controller-->
         <scene sceneID="rNw-bE-8bj">
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q0e-M7-sMw" customClass="HomeViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ftf-Bp-3ZV">
+                    <view key="view" hidden="YES" contentMode="scaleToFill" id="Ftf-Bp-3ZV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -296,19 +318,19 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;name&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U41-OS-nWr">
-                                        <rect key="frame" x="142.66666666666663" y="68.666666666666671" width="224.33333333333337" height="36.333333333333329"/>
+                                        <rect key="frame" x="138" y="77" width="229" height="28"/>
                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="24"/>
                                         <color key="textColor" red="0.65490196079999996" green="0.52941176469999995" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สวัสดี" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sez-cE-xfE">
-                                        <rect key="frame" x="103" y="5.6666666666666643" width="115" height="68.333333333333343"/>
+                                        <rect key="frame" x="103" y="21.333333333333332" width="115" height="52.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="45"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="คุณ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1E1-9k-01g">
-                                        <rect key="frame" x="103" y="68.666666666666671" width="39.666666666666657" height="36.333333333333329"/>
+                                        <rect key="frame" x="103" y="77" width="35" height="28"/>
                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="24"/>
                                         <color key="textColor" red="0.65490196078431373" green="0.52941176470588236" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -336,6 +358,19 @@
                                     <constraint firstAttribute="height" constant="635" id="lUw-lE-ILf"/>
                                     <constraint firstAttribute="width" constant="359" id="o2N-bF-AG3"/>
                                 </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTableViewCell" id="Dzr-7l-qNc" customClass="HomeTableViewCell" customModule="Adopby" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="359" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dzr-7l-qNc" id="FhD-AQ-GcK">
+                                            <rect key="frame" x="0.0" y="0.0" width="359" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yyO-oi-yNt" kind="show" identifier="dataSent" id="j8T-p3-Rr4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                                 <sections/>
                                 <connections>
                                     <outlet property="dataSource" destination="q0e-M7-sMw" id="rK0-Eg-vJo"/>
@@ -372,8 +407,7 @@
                             <constraint firstItem="PR0-YG-J8U" firstAttribute="leading" secondItem="juS-7q-Oli" secondAttribute="leading" constant="8" id="xUz-B2-3Mf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="af8-aa-GWg">
-                        <imageReference key="image" image="house" catalog="system" symbolScale="default"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="af8-aa-GWg">
                         <color key="badgeColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="tMm-QI-tFM"/>
@@ -386,6 +420,214 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZr-K6-YOO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1856.8" y="-196.55172413793105"/>
+        </scene>
+        <!--Show Detail View Controller-->
+        <scene sceneID="IFC-vV-jKS">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="yyO-oi-yNt" customClass="ShowDetailViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dxL-UV-S0I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9E-u9-ypr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofw-fp-7Ay">
+                                        <rect key="frame" x="16" y="54" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="2mj-Yr-neA"/>
+                                            <constraint firstAttribute="height" constant="33.670000000000002" id="rPN-es-SK9"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="chevron.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="btnDIsmiss:" destination="yyO-oi-yNt" eventType="touchUpInside" id="9JL-fN-MpX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9m-PE-x7K">
+                                        <rect key="frame" x="168" y="49" width="199" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="1" green="0.98823529409999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="bubble.left" catalog="system" title="แชทกับเจ้าของโพส">
+                                            <fontDescription key="titleFontDescription" name="Prompt-Regular" family="Prompt" pointSize="15"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnChatWithPoster:" destination="yyO-oi-yNt" eventType="touchUpInside" id="Pjp-vX-a2k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Ofw-fp-7Ay" secondAttribute="bottom" constant="14.33" id="SHS-tn-rRA"/>
+                                    <constraint firstItem="Ofw-fp-7Ay" firstAttribute="leading" secondItem="T9E-u9-ypr" secondAttribute="leading" constant="16" id="l0I-T2-pZV"/>
+                                    <constraint firstAttribute="height" constant="100" id="xc9-Ss-RvZ"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="anq-Of-lhb">
+                                <rect key="frame" x="0.0" y="100" width="375" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="309" id="OXh-uF-M8O"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Rn-Wb-neF">
+                                <rect key="frame" x="16" y="425" width="294" height="59"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s5N-ho-xkZ">
+                                        <rect key="frame" x="8" y="7" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="ILC-8U-fhZ"/>
+                                            <constraint firstAttribute="height" constant="45" id="Rrs-E6-xzp"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ประกาศโดย " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so4-Ut-rbi">
+                                        <rect key="frame" x="61" y="4.9999999999999982" width="225" height="27.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="225" id="rIQ-BY-pMk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="18"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เมื่อวันที่" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnS-cS-rSw">
+                                        <rect key="frame" x="61" y="32.333333333333314" width="225" height="26.666666666666671"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="225" id="dGQ-4K-ieU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="18"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="WnS-cS-rSw" firstAttribute="top" secondItem="so4-Ut-rbi" secondAttribute="bottom" id="185-BO-RQN"/>
+                                    <constraint firstAttribute="bottom" secondItem="WnS-cS-rSw" secondAttribute="bottom" id="NJs-0U-Xij"/>
+                                    <constraint firstAttribute="trailing" secondItem="so4-Ut-rbi" secondAttribute="trailing" constant="8" id="Wll-DG-iyf"/>
+                                    <constraint firstItem="WnS-cS-rSw" firstAttribute="top" secondItem="0Rn-Wb-neF" secondAttribute="top" constant="32.329999999999998" id="dwx-t5-X3a"/>
+                                    <constraint firstItem="s5N-ho-xkZ" firstAttribute="leading" secondItem="0Rn-Wb-neF" secondAttribute="leading" constant="8" id="fme-D3-dTE"/>
+                                    <constraint firstItem="s5N-ho-xkZ" firstAttribute="top" secondItem="0Rn-Wb-neF" secondAttribute="top" constant="7" id="hfF-Cw-O4q"/>
+                                    <constraint firstItem="so4-Ut-rbi" firstAttribute="top" secondItem="0Rn-Wb-neF" secondAttribute="top" constant="5" id="kCB-FH-42B"/>
+                                    <constraint firstAttribute="trailing" secondItem="WnS-cS-rSw" secondAttribute="trailing" constant="8" id="mFp-1T-3Mf"/>
+                                    <constraint firstAttribute="bottom" secondItem="s5N-ho-xkZ" secondAttribute="bottom" constant="7" id="mYL-e3-CAg"/>
+                                    <constraint firstAttribute="width" constant="294" id="sFu-TN-m75"/>
+                                    <constraint firstAttribute="height" constant="59" id="yEn-sx-3YT"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="ชื่อ, อายุ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-Jq-028">
+                                <rect key="frame" x="16" y="492" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="KId-wx-3qE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="36"/>
+                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="สายพันธุ์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4J-CI-WUD">
+                                <rect key="frame" x="16" y="534" width="343" height="23.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="19h-gk-5xk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เพศ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rME-bp-0je">
+                                <rect key="frame" x="16" y="562" width="343" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="gon-p5-qdH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="คำอธิบาย" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94L-wM-4Wy">
+                                <rect key="frame" x="16" y="654" width="343" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124" id="KK3-Ea-0Wn"/>
+                                    <constraint firstAttribute="width" constant="343" id="rt3-7p-CWr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="16"/>
+                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ระแวกที่อยู่ :" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXT-n7-n62">
+                                <rect key="frame" x="16" y="614" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="e73-pF-LlE"/>
+                                    <constraint firstAttribute="height" constant="40" id="kPj-gp-aS5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="16"/>
+                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFw-W3-36B">
+                                <rect key="frame" x="16" y="359" width="138" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="gxN-Vy-DSd"/>
+                                    <constraint firstAttribute="width" constant="138" id="taB-xw-S4z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3jx-tE-cFk"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.97254901960784312" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0Rn-Wb-neF" firstAttribute="top" secondItem="RFw-W3-36B" secondAttribute="bottom" constant="33" id="3Pb-pd-XaX"/>
+                            <constraint firstItem="0Rn-Wb-neF" firstAttribute="top" secondItem="anq-Of-lhb" secondAttribute="bottom" constant="16" id="5p1-O9-hD2"/>
+                            <constraint firstItem="anq-Of-lhb" firstAttribute="top" secondItem="T9E-u9-ypr" secondAttribute="bottom" id="6Wr-ve-PP5"/>
+                            <constraint firstItem="0Rn-Wb-neF" firstAttribute="top" secondItem="anq-Of-lhb" secondAttribute="bottom" constant="16" id="8aY-PQ-tAH"/>
+                            <constraint firstItem="0Rn-Wb-neF" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="8kg-8H-FnA"/>
+                            <constraint firstItem="T4J-CI-WUD" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="BO0-jc-vIo"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="rME-bp-0je" secondAttribute="trailing" constant="16" id="CHP-ta-V3E"/>
+                            <constraint firstItem="RFw-W3-36B" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="CP4-H2-DfG"/>
+                            <constraint firstItem="94L-wM-4Wy" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="Dbq-0s-FqZ"/>
+                            <constraint firstItem="T4J-CI-WUD" firstAttribute="top" secondItem="Wox-Jq-028" secondAttribute="bottom" id="IJX-ez-MQf"/>
+                            <constraint firstItem="94L-wM-4Wy" firstAttribute="top" secondItem="HXT-n7-n62" secondAttribute="bottom" id="PPA-cN-Zs8"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="HXT-n7-n62" secondAttribute="trailing" constant="16" id="Sti-t0-kBj"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="0Rn-Wb-neF" secondAttribute="trailing" constant="65" id="TWR-wQ-ZUn"/>
+                            <constraint firstItem="T9E-u9-ypr" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" id="U0z-0l-ZGP"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="Wox-Jq-028" secondAttribute="trailing" constant="16" id="WVU-J2-JzM"/>
+                            <constraint firstItem="T9E-u9-ypr" firstAttribute="trailing" secondItem="3jx-tE-cFk" secondAttribute="trailing" id="YmQ-Ea-6Y1"/>
+                            <constraint firstItem="HXT-n7-n62" firstAttribute="top" secondItem="rME-bp-0je" secondAttribute="bottom" id="ZMX-Yt-TRa"/>
+                            <constraint firstItem="anq-Of-lhb" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" id="ZZM-ZZ-G0Z"/>
+                            <constraint firstItem="anq-Of-lhb" firstAttribute="trailing" secondItem="3jx-tE-cFk" secondAttribute="trailing" id="bAZ-9I-PJi"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="T4J-CI-WUD" secondAttribute="trailing" constant="16" id="cVU-QH-iBB"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="bottom" secondItem="94L-wM-4Wy" secondAttribute="bottom" id="fFm-bk-gdy"/>
+                            <constraint firstItem="Wox-Jq-028" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="fSG-37-J72"/>
+                            <constraint firstItem="T4J-CI-WUD" firstAttribute="top" secondItem="Wox-Jq-028" secondAttribute="bottom" id="foz-Lw-VyY"/>
+                            <constraint firstItem="rME-bp-0je" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="ft7-dF-gP4"/>
+                            <constraint firstItem="3jx-tE-cFk" firstAttribute="trailing" secondItem="94L-wM-4Wy" secondAttribute="trailing" constant="16" id="kyx-la-E3l"/>
+                            <constraint firstItem="HXT-n7-n62" firstAttribute="leading" secondItem="3jx-tE-cFk" secondAttribute="leading" constant="16" id="qTQ-PV-5Kc"/>
+                            <constraint firstItem="T9E-u9-ypr" firstAttribute="top" secondItem="dxL-UV-S0I" secondAttribute="top" id="rYy-tl-cYZ"/>
+                            <constraint firstItem="Wox-Jq-028" firstAttribute="top" secondItem="0Rn-Wb-neF" secondAttribute="bottom" constant="8" symbolic="YES" id="swR-Q1-OXf"/>
+                            <constraint firstItem="rME-bp-0je" firstAttribute="top" secondItem="T4J-CI-WUD" secondAttribute="bottom" constant="4.6699999999999999" id="uSY-cc-k0h"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="72o-oP-pj3"/>
+                    <connections>
+                        <outlet property="btnChatWithPoster" destination="Y9m-PE-x7K" id="pkv-DE-RWK"/>
+                        <outlet property="imgIcon" destination="s5N-ho-xkZ" id="Qhz-hc-YNH"/>
+                        <outlet property="imgPet" destination="anq-Of-lhb" id="3nr-PC-jbG"/>
+                        <outlet property="lbAddress" destination="HXT-n7-n62" id="ws8-Cr-wVL"/>
+                        <outlet property="lbAnnouceBy" destination="so4-Ut-rbi" id="ff1-BP-gcg"/>
+                        <outlet property="lbDate" destination="WnS-cS-rSw" id="dpf-zz-qN7"/>
+                        <outlet property="lbDescription" destination="94L-wM-4Wy" id="b0x-7l-f8X"/>
+                        <outlet property="lbNameAndAge" destination="Wox-Jq-028" id="NIC-NT-tjw"/>
+                        <outlet property="lbSex" destination="rME-bp-0je" id="0GT-e7-N5c"/>
+                        <outlet property="lbStatus" destination="RFw-W3-36B" id="0SY-PO-sQ4"/>
+                        <outlet property="lbType" destination="T4J-CI-WUD" id="BVY-Qc-Cbw"/>
+                        <outlet property="viewOfDetail" destination="0Rn-Wb-neF" id="wzt-Ue-rq8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dB0-LC-z7b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2653.5999999999999" y="-566.00985221674875"/>
         </scene>
         <!--Base Tabbar-->
         <scene sceneID="3Wd-b7-3nQ">
@@ -402,9 +644,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="q0e-M7-sMw" kind="relationship" relationship="viewControllers" id="Vgi-CH-VAF"/>
-                        <segue destination="Io1-aK-NEI" kind="relationship" relationship="viewControllers" id="0nT-5U-RQu"/>
+                        <segue destination="IVw-ki-SmI" kind="relationship" relationship="viewControllers" id="4n4-wf-si6"/>
                         <segue destination="daQ-EK-44n" kind="relationship" relationship="viewControllers" id="IJw-CR-ScE"/>
                         <segue destination="ib6-O2-TUc" kind="relationship" relationship="viewControllers" id="RXL-Pq-GGR"/>
+                        <segue destination="sFL-P1-Ecb" kind="relationship" relationship="viewControllers" id="I3V-xc-vr4"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AN5-TF-zM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -484,7 +727,7 @@
                                                         <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <segments>
                                                             <segment title=""/>
-                                                            <segment title=""/>
+                                                            <segment title="" image="cat"/>
                                                         </segments>
                                                         <color key="selectedSegmentTintColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <connections>
@@ -674,7 +917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ja-nL-jxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2652" y="-225.36945812807883"/>
+            <point key="canvasLocation" x="3354" y="-188"/>
         </scene>
         <!--Missing View Controller-->
         <scene sceneID="tBu-R3-qnJ">
@@ -688,7 +931,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ประกาศหาสัตว์หาย" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8a-iy-EPw">
-                                        <rect key="frame" x="16" y="26.333333333333332" width="254" height="48.666666666666671"/>
+                                        <rect key="frame" x="16" y="37.666666666666657" width="254" height="37.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="32"/>
                                         <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -707,12 +950,40 @@
                                     <constraint firstAttribute="height" constant="661" id="BJS-Pe-HPV"/>
                                     <constraint firstAttribute="width" constant="359" id="zAH-ey-DrP"/>
                                 </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MissingTableViewCell" id="HhA-fM-jB8" customClass="MissingTableViewCell" customModule="Adopby" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="359" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HhA-fM-jB8" id="bDv-BY-C6U">
+                                            <rect key="frame" x="0.0" y="0.0" width="359" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yyO-oi-yNt" kind="show" identifier="dataSentFromMissing" id="XJW-AG-Kax"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0e-j5-dGO">
+                                <rect key="frame" x="305" y="605" width="50" height="50.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AWW-he-qO6"/>
+                                    <constraint firstAttribute="height" constant="51.329999999999998" id="GzF-XE-WWu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" backgroundImage="pawprint.circle.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="R6S-h5-kBS" kind="presentation" identifier="dataSentPostMissingPet" modalPresentationStyle="fullScreen" id="N8I-hx-1Jr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ccH-qT-Bys"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="yg1-k8-HJY" firstAttribute="leading" secondItem="ccH-qT-Bys" secondAttribute="leading" id="15H-md-Yne"/>
+                            <constraint firstItem="ccH-qT-Bys" firstAttribute="bottom" secondItem="g0e-j5-dGO" secondAttribute="bottom" constant="53.670000000000002" id="3Tp-Y6-Rqt"/>
                             <constraint firstAttribute="bottom" secondItem="gfI-9i-czQ" secondAttribute="bottom" id="8RV-X3-awe"/>
                             <constraint firstItem="yg1-k8-HJY" firstAttribute="top" secondItem="IB6-9S-A5R" secondAttribute="top" id="KOS-Om-Frc"/>
                             <constraint firstItem="yg1-k8-HJY" firstAttribute="top" secondItem="ccH-qT-Bys" secondAttribute="top" id="Kcr-Q3-Fjh"/>
@@ -720,6 +991,7 @@
                             <constraint firstItem="gfI-9i-czQ" firstAttribute="leading" secondItem="ccH-qT-Bys" secondAttribute="leading" constant="8" id="YhQ-7T-g6A"/>
                             <constraint firstItem="gfI-9i-czQ" firstAttribute="top" secondItem="yg1-k8-HJY" secondAttribute="bottom" constant="8" symbolic="YES" id="bCd-aD-L8P"/>
                             <constraint firstItem="yg1-k8-HJY" firstAttribute="trailing" secondItem="ccH-qT-Bys" secondAttribute="trailing" id="c51-Af-xWY"/>
+                            <constraint firstItem="ccH-qT-Bys" firstAttribute="trailing" secondItem="g0e-j5-dGO" secondAttribute="trailing" constant="20" id="dwB-Zg-PmZ"/>
                             <constraint firstItem="yg1-k8-HJY" firstAttribute="trailing" secondItem="ccH-qT-Bys" secondAttribute="trailing" id="gfq-jl-ah4"/>
                             <constraint firstItem="gfI-9i-czQ" firstAttribute="top" secondItem="yg1-k8-HJY" secondAttribute="bottom" constant="8" symbolic="YES" id="ipl-Q9-CqT"/>
                             <constraint firstItem="ccH-qT-Bys" firstAttribute="trailing" secondItem="gfI-9i-czQ" secondAttribute="trailing" constant="8" id="z0i-NP-jGC"/>
@@ -733,7 +1005,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n2V-UN-316" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2653.5999999999999" y="465.51724137931035"/>
+            <point key="canvasLocation" x="1857" y="1118"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kFb-Aw-lNv">
+            <objects>
+                <navigationController id="IVw-ki-SmI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="bubble.left" catalog="system" id="KNk-U1-ESK">
+                        <color key="badgeColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lkm-Iz-vfc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jVq-JJ-fxj" kind="relationship" relationship="rootViewController" id="mgD-9G-shr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOQ-zh-1YX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="459"/>
+        </scene>
+        <!--Chat Kit Ui View Controller-->
+        <scene sceneID="jS8-b2-p5J">
+            <objects>
+                <viewController id="jVq-JJ-fxj" customClass="ChatKitUiViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uUa-Rl-Mhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VfH-iD-sAW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="02l-FV-kMP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xK-qa-MnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="459"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="YDa-89-p22">
@@ -756,25 +1063,695 @@
                             <constraint firstItem="Z9b-9Z-my2" firstAttribute="bottom" secondItem="XDW-Yq-mvG" secondAttribute="bottom" id="UBW-XN-GXS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="mappin.and.ellipse" catalog="system" id="KsH-Vt-v2y"/>
+                    <tabBarItem key="tabBarItem" title="" id="KsH-Vt-v2y">
+                        <imageReference key="image" image="mappin.and.ellipse" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="map" destination="Z9b-9Z-my2" id="pQe-hg-H8p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88J-d4-Ium" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3392.8000000000002" y="105.66502463054188"/>
+            <point key="canvasLocation" x="1857" y="1757"/>
+        </scene>
+        <!--Stat View Controller-->
+        <scene sceneID="gLq-ja-JPZ">
+            <objects>
+                <viewController id="gLN-jr-ehZ" customClass="StatViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dAy-mt-wDX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTj-Tz-4fn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cu5-kp-bo1">
+                                        <rect key="frame" x="16" y="54" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33.670000000000002" id="95U-7v-QO6"/>
+                                            <constraint firstAttribute="width" constant="30" id="yxU-MB-5w1"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="chevron.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="btnDismiss:" destination="gLN-jr-ehZ" eventType="touchUpInside" id="HsY-Gx-zQU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cu5-kp-bo1" firstAttribute="leading" secondItem="nTj-Tz-4fn" secondAttribute="leading" constant="16" id="Chj-Nn-itf"/>
+                                    <constraint firstAttribute="bottom" secondItem="cu5-kp-bo1" secondAttribute="bottom" constant="14.33" id="ZGg-8k-DYD"/>
+                                    <constraint firstAttribute="height" constant="100" id="qO6-Ev-MjL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6D-Kr-Kqe" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="108" width="375" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vIE-SL-G7Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nTj-Tz-4fn" firstAttribute="trailing" secondItem="vIE-SL-G7Z" secondAttribute="trailing" id="6su-ED-WzO"/>
+                            <constraint firstItem="nTj-Tz-4fn" firstAttribute="leading" secondItem="vIE-SL-G7Z" secondAttribute="leading" id="Geb-it-uwF"/>
+                            <constraint firstItem="nTj-Tz-4fn" firstAttribute="top" secondItem="dAy-mt-wDX" secondAttribute="top" id="WYw-34-muF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yjO-TS-OMo"/>
+                    <connections>
+                        <outlet property="chartView" destination="a6D-Kr-Kqe" id="391-6n-cjQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wv4-Py-Mj7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="2417.7339901477835"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="0cC-yU-sbE">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="sFL-P1-Ecb" customClass="ProfileViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ef3-iz-3Tm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux0-HY-EGS">
+                                <rect key="frame" x="16" y="629" width="343" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79607843137254897" green="0.25882352941176467" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="34"/>
+                                <color key="tintColor" red="0.99607843139999996" green="0.97254901959999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="ออกจากระบบ"/>
+                                <connections>
+                                    <action selector="btnLogout:" destination="sFL-P1-Ecb" eventType="touchUpInside" id="5Aa-yj-WzZ"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWs-y8-MU1">
+                                <rect key="frame" x="16" y="258" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="28"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="แก้ไขโพสหาบ้าน">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uES-Zt-DS4" kind="presentation" identifier="sendPetPost" id="aBX-Kr-qbh"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCK-lB-E4x">
+                                <rect key="frame" x="16" y="190" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="28"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="แก้ไขโปรไฟล์">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ccs-VY-hi9" kind="popoverPresentation" identifier="editProfile" popoverAnchorView="XCK-lB-E4x" id="HFO-2f-Q4B">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLH-Cn-A1B">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คุณ Hatto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbH-h5-aU2">
+                                        <rect key="frame" x="8" y="41" width="359" height="99"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="36"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MbK-vC-Pls">
+                                <rect key="frame" x="41" y="587" width="292" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdb-UR-r2w">
+                                <rect key="frame" x="16" y="326" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="28"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="แก้ไขโพสสัตว์หาย">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkn-SL-qNJ">
+                                <rect key="frame" x="16" y="394" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="28"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="สถิติสัตว์หาบ้าน">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gLN-jr-ehZ" kind="presentation" identifier="sentPost" modalPresentationStyle="fullScreen" id="Zqj-2o-TjS"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJf-Zh-qQp">
+                                <rect key="frame" x="16" y="462" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.81960784310000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Prompt-Medium" family="Prompt" pointSize="28"/>
+                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="สถิติสัตว์สูญหาย">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gLN-jr-ehZ" kind="presentation" identifier="sentLost" modalPresentationStyle="fullScreen" id="Ugz-Ky-ifi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jmk-x6-5T6"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.97254901960784312" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="Zdh-bn-0qq"/>
+                    <connections>
+                        <outlet property="btnEditPost" destination="YWs-y8-MU1" id="so3-KX-5Ly"/>
+                        <outlet property="btnEditProfile" destination="XCK-lB-E4x" id="Rjc-M5-wWj"/>
+                        <outlet property="btnLogout" destination="Ux0-HY-EGS" id="0Vc-6r-7Q9"/>
+                        <outlet property="btnStatFindHome" destination="Jkn-SL-qNJ" id="Pef-X4-xgd"/>
+                        <outlet property="btnStatMissing" destination="dJf-Zh-qQp" id="UsL-TA-3Rs"/>
+                        <outlet property="lbName" destination="FbH-h5-aU2" id="hCO-Pi-LqT"/>
+                        <outlet property="viewTop" destination="HLH-Cn-A1B" id="xa6-46-9ws"/>
+                        <outlet property="viewUnderline" destination="MbK-vC-Pls" id="xoM-9o-uZL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x9T-7l-PvV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1856.8" y="2418.4729064039411"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Uvb-Zc-bUm">
+            <objects>
+                <navigationController modalPresentationStyle="fullScreen" id="uES-Zt-DS4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bU5-E0-nfB">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6Zq-XS-brD" kind="relationship" relationship="rootViewController" id="rFY-BM-aDW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A28-PV-VB1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2714" y="2418"/>
+        </scene>
+        <!--Edit Profile View Controller-->
+        <scene sceneID="jrI-SL-H1U">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Ccs-VY-hi9" customClass="EditProfileViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yae-EG-fY3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zm-q8-a5L">
+                                <rect key="frame" x="39" y="223" width="297" height="312"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อบัญชีผู้ใช้" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wsz-pM-417">
+                                        <rect key="frame" x="18" y="19" width="260" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ที่อยู่" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m4O-qG-Awc">
+                                        <rect key="frame" x="18" y="190" width="260" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="เบอร์โทร" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HS0-Ei-bv3">
+                                        <rect key="frame" x="18" y="247" width="260" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อจริง" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wN2-Xb-FLf">
+                                        <rect key="frame" x="18" y="76" width="260" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="นามสกุล" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVB-ee-x5V">
+                                        <rect key="frame" x="18" y="133" width="260" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.65490196079999996" green="0.52941176469999995" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="6ef-hW-3Ul"/>
+                                    <constraint firstAttribute="height" constant="312" id="JDN-oJ-N12"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYi-L9-tgF">
+                                <rect key="frame" x="39" y="552" width="140" height="43"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="5Ed-tL-4Te"/>
+                                    <constraint firstAttribute="width" constant="140" id="eAV-7q-TUp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="22"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="แก้ไข">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSubmit:" destination="Ccs-VY-hi9" eventType="touchUpInside" id="yt2-6L-t0Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t34-65-6O7">
+                                <rect key="frame" x="196" y="550" width="140" height="46"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="OBq-PS-QIj"/>
+                                    <constraint firstAttribute="width" constant="140" id="XLJ-7E-2ky"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="22"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="ยกเลิก">
+                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCancel:" destination="Ccs-VY-hi9" eventType="touchUpInside" id="VbY-E7-Ep0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mw3-oG-5YJ"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t34-65-6O7" firstAttribute="top" secondItem="4zm-q8-a5L" secondAttribute="bottom" constant="15" id="717-CN-23z"/>
+                            <constraint firstItem="4zm-q8-a5L" firstAttribute="centerY" secondItem="Yae-EG-fY3" secondAttribute="centerY" id="Aa0-jV-aQg"/>
+                            <constraint firstItem="Mw3-oG-5YJ" firstAttribute="trailing" secondItem="t34-65-6O7" secondAttribute="trailing" constant="39" id="Tam-cj-sdU"/>
+                            <constraint firstItem="nYi-L9-tgF" firstAttribute="leading" secondItem="Mw3-oG-5YJ" secondAttribute="leading" constant="39" id="X1m-sn-gcX"/>
+                            <constraint firstItem="t34-65-6O7" firstAttribute="leading" secondItem="nYi-L9-tgF" secondAttribute="trailing" constant="17" id="eLF-Lq-PJ6"/>
+                            <constraint firstItem="4zm-q8-a5L" firstAttribute="centerX" secondItem="Yae-EG-fY3" secondAttribute="centerX" id="nO1-0L-piK"/>
+                            <constraint firstItem="nYi-L9-tgF" firstAttribute="top" secondItem="4zm-q8-a5L" secondAttribute="bottom" constant="17" id="rkE-HZ-upb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GQW-dU-O8N"/>
+                    <connections>
+                        <outlet property="btnCancel" destination="t34-65-6O7" id="86u-Ea-X7c"/>
+                        <outlet property="btnSubmit" destination="nYi-L9-tgF" id="Pgq-3d-Hr3"/>
+                        <outlet property="tfAddress" destination="m4O-qG-Awc" id="PcD-pW-QAO"/>
+                        <outlet property="tfFirstname" destination="wN2-Xb-FLf" id="7CZ-pq-L8B"/>
+                        <outlet property="tfSurname" destination="eVB-ee-x5V" id="z9e-X4-kkP"/>
+                        <outlet property="tfTel" destination="HS0-Ei-bv3" id="caa-Bf-jXB"/>
+                        <outlet property="tfUsername" destination="Wsz-pM-417" id="MOi-6u-fOk"/>
+                        <outlet property="viewPopup" destination="4zm-q8-a5L" id="R1u-gT-ESP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGa-tf-1Ou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="3177"/>
+        </scene>
+        <!--โพสหาบ้าน-->
+        <scene sceneID="bEO-q8-fPp">
+            <objects>
+                <tableViewController modalPresentationStyle="fullScreen" id="6Zq-XS-brD" customClass="PetPostTableViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="lyN-Qc-eA8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="6Zq-XS-brD" id="zVW-hk-8cu"/>
+                            <outlet property="delegate" destination="6Zq-XS-brD" id="ji7-U3-Jvj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="โพสหาบ้าน" id="kaX-72-Smm"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hbp-PC-1Pa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3575" y="2418"/>
+        </scene>
+        <!--Post Missing View Controller-->
+        <scene sceneID="zQH-ji-MkZ">
+            <objects>
+                <viewController id="R6S-h5-kBS" customClass="PostMissingViewController" customModule="Adopby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IpA-fn-mly">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uP-Jc-f3d">
+                                <rect key="frame" x="0.0" y="44" width="375" height="760"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wl8-oF-IyZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ประกาศหาสัตว์หาย" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZ4-gU-d6i">
+                                                <rect key="frame" x="42" y="8" width="290" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="30"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อ (ถ้ามี)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IyS-KT-3z8">
+                                                <rect key="frame" x="42" y="82" width="290" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="สี" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qPB-EH-hli">
+                                                <rect key="frame" x="42" y="154" width="140" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="บรรยายเพิ่มเติม" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d0N-xA-S2w">
+                                                <rect key="frame" x="42" y="624" width="290" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnR-Yh-B7p">
+                                                <rect key="frame" x="42" y="370" width="290" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <segmentedControl opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="etA-Yt-isd">
+                                                        <rect key="frame" x="37" y="0.0" width="217" height="32"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <segments>
+                                                            <segment title=""/>
+                                                            <segment title="" image="cat"/>
+                                                        </segments>
+                                                        <color key="selectedSegmentTintColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <connections>
+                                                            <action selector="setupDogCat:" destination="R6S-h5-kBS" eventType="valueChanged" id="vsJ-dH-f8j"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7KV-ZI-06o">
+                                                <rect key="frame" x="53" y="923" width="125" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="22"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="ลงทะเบียน">
+                                                    <color key="titleColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnSubmit:" destination="R6S-h5-kBS" eventType="touchUpInside" id="7qA-RR-9KD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qo-7e-QEP">
+                                                <rect key="frame" x="196" y="922" width="125" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="22"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="ยกเลิก">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnDismiss:" destination="R6S-h5-kBS" eventType="touchUpInside" id="rqh-ns-6ey"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3h-yI-Tlb">
+                                                <rect key="frame" x="42" y="298" width="109" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="เพศ">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdSex:" destination="R6S-h5-kBS" eventType="touchUpInside" id="dWT-VU-R7U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpn-RX-pyV">
+                                                <rect key="frame" x="42" y="480" width="290" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="กรุณาเลือกสุนัข หรือ แมว">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdType:" destination="R6S-h5-kBS" eventType="touchUpInside" id="LTN-zZ-j0Q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OI-62-BRV">
+                                                <rect key="frame" x="192" y="226" width="140" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="อายุ (เดือน)">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdAgeM:" destination="R6S-h5-kBS" eventType="touchUpInside" id="mnA-vE-hIv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-Na-k9h">
+                                                <rect key="frame" x="42" y="226" width="140" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="อายุ (ปี)">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdAgeY:" destination="R6S-h5-kBS" eventType="touchUpInside" id="3fG-H6-qrE"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App_Icon_Useable" translatesAutoresizingMaskIntoConstraints="NO" id="hgE-W1-yb4">
+                                                <rect key="frame" x="42" y="768" width="290" height="129"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgs-1f-PjV">
+                                                <rect key="frame" x="284" y="699" width="48" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" red="0.79607843140000001" green="0.25882352939999997" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="xmark.bin.fill" catalog="system">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnDelete:" destination="R6S-h5-kBS" eventType="touchUpInside" id="10n-q9-11u"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t06-Yo-VUI">
+                                                <rect key="frame" x="42" y="697" width="242" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="อัพโหลดรูปภาพ">
+                                                    <color key="titleColor" red="0.98431372549999996" green="0.90196078430000004" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnUploadImage:" destination="R6S-h5-kBS" eventType="touchUpInside" id="iEf-0h-5Wp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVt-Pi-Eyi">
+                                                <rect key="frame" x="161" y="298" width="171" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="ระแวกที่อยู่">
+                                                    <color key="titleColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleTapDdAddress:" destination="R6S-h5-kBS" eventType="touchUpInside" id="utA-ph-h1b"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="วันที่พบเห็นล่าสุด" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KVg-4l-5YJ">
+                                                <rect key="frame" x="42" y="552" width="290" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="รางวัล (ถ้ามี)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aqw-bl-cUr">
+                                                <rect key="frame" x="192" y="154" width="140" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.97110611199999997" green="0.90489274259999997" blue="0.66662532090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                        <color key="value" red="0.4941176471" green="0.39607843139999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="Ovn-Ee-eyz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Wl8-oF-IyZ" secondAttribute="bottom" id="2VD-IH-y1D"/>
+                                    <constraint firstItem="Wl8-oF-IyZ" firstAttribute="leading" secondItem="2uP-Jc-f3d" secondAttribute="leading" id="Nf8-Qy-HVm"/>
+                                    <constraint firstItem="Wl8-oF-IyZ" firstAttribute="top" secondItem="2uP-Jc-f3d" secondAttribute="top" id="bv0-ZI-9bE"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wl8-oF-IyZ" secondAttribute="trailing" id="fvN-cu-uUo"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GzW-SG-Uya"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2uP-Jc-f3d" firstAttribute="leading" secondItem="GzW-SG-Uya" secondAttribute="leading" id="fMB-ec-33Y"/>
+                            <constraint firstItem="2uP-Jc-f3d" firstAttribute="top" secondItem="GzW-SG-Uya" secondAttribute="top" id="gON-AL-AtX"/>
+                            <constraint firstItem="2uP-Jc-f3d" firstAttribute="trailing" secondItem="GzW-SG-Uya" secondAttribute="trailing" id="iZ4-8m-rb5"/>
+                            <constraint firstItem="GzW-SG-Uya" firstAttribute="bottom" secondItem="2uP-Jc-f3d" secondAttribute="bottom" id="nGz-b9-6Se"/>
+                            <constraint firstItem="Wl8-oF-IyZ" firstAttribute="width" secondItem="IpA-fn-mly" secondAttribute="width" id="pSV-kc-rMM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="pawprint.circle" catalog="system" id="4Iv-rY-Uyy"/>
+                    <navigationItem key="navigationItem" id="0JO-v5-cm5"/>
+                    <size key="freeformSize" width="375" height="838"/>
+                    <connections>
+                        <outlet property="btnAddress" destination="gVt-Pi-Eyi" id="FWN-Lj-x3I"/>
+                        <outlet property="btnAgeM" destination="7OI-62-BRV" id="daU-u3-BCi"/>
+                        <outlet property="btnAgeY" destination="gBv-Na-k9h" id="McK-cb-jeJ"/>
+                        <outlet property="btnCancel" destination="3qo-7e-QEP" id="RA6-v6-Dfb"/>
+                        <outlet property="btnPetType" destination="xpn-RX-pyV" id="Ml5-tp-3mh"/>
+                        <outlet property="btnSex" destination="g3h-yI-Tlb" id="2Z3-gD-Jk8"/>
+                        <outlet property="btnSubmit" destination="7KV-ZI-06o" id="n3b-l2-aTr"/>
+                        <outlet property="btnUploadPicture" destination="t06-Yo-VUI" id="Eeu-em-p81"/>
+                        <outlet property="imgPreview" destination="hgE-W1-yb4" id="tRo-ui-vuE"/>
+                        <outlet property="sgPetType" destination="etA-Yt-isd" id="Po8-Z0-zmz"/>
+                        <outlet property="tfDatePicker" destination="KVg-4l-5YJ" id="rLH-9f-k6W"/>
+                        <outlet property="tfDescription" destination="d0N-xA-S2w" id="2vN-jF-DgB"/>
+                        <outlet property="tfPetColor" destination="qPB-EH-hli" id="OOp-OQ-39P"/>
+                        <outlet property="tfPetName" destination="IyS-KT-3z8" id="wVu-KF-GJd"/>
+                        <outlet property="tfPrice" destination="aqw-bl-cUr" id="yQ5-SJ-SjH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xuk-JA-Yu3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2653.5999999999999" y="1126.8472906403942"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Zqj-2o-TjS"/>
+        <segue reference="XJW-AG-Kax"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="App_Icon_Useable" width="341.33334350585938" height="341.33334350585938"/>
-        <image name="bubble.left.and.bubble.right" catalog="system" width="128" height="96"/>
+        <image name="bubble.left" catalog="system" width="128" height="110"/>
+        <image name="cat" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="exclamationmark.square" catalog="system" width="128" height="114"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="pawprint.circle" catalog="system" width="128" height="121"/>
         <image name="pawprint.circle.fill" catalog="system" width="128" height="121"/>
         <image name="pawprint.fill" catalog="system" width="128" height="113"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="xmark.bin.fill" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

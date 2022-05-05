@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import CometChatPro
 
 class BaseTabbar: UITabBarController, UITabBarControllerDelegate {
     
-    var userData:[String] = []
+    public var userData:[String] = []
         
     override func viewDidLoad() {
         super.viewDidLoad()
         loadView()
+        view.backgroundColor = .init(rgb: 0xFEF8E7)
+        //updateStatusCometChat
+        let currentUser = User(uid: userData[0], name: userData[1])
+        CometChat.updateCurrentUserDetails(user: currentUser, onSuccess: { user in
+            print("Updated user object",user)
+        }, onError: { error in
+            print("Update user failed with error: \(String(describing: error?.errorDescription))")
+        })
         // Do any additional setup after loading the view.
     }
     

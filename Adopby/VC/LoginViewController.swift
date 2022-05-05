@@ -7,6 +7,7 @@
 
 import UIKit
 import Alamofire
+import CometChatPro
 
 class LoginViewController: UIViewController {
     // MARK: - Variable
@@ -15,6 +16,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tfPassword: UITextField!
     @IBOutlet weak var btnSignin: UIButton!
     var keepUserData:[String] = []
+    var currentUser : User = User(uid: "", name: "")
     
     // MARK: - Function
     @IBAction func btnLogin(_ sender: Any) {
@@ -25,6 +27,7 @@ class LoginViewController: UIViewController {
             "password":"\(tfPassword.text!)"
         ]
         let encoder = URLEncodedFormParameterEncoder(destination: .httpBody)
+        self.LoadingStart()
         AF.request(
             url,
             method: .post,
@@ -41,11 +44,41 @@ class LoginViewController: UIViewController {
                     response.value!.address ?? "",
                     response.value!.userTel ?? ""
                 ]
-                self.performSegue(withIdentifier: "application", sender: nil)
+                switch (response.result) {
+                case .success:
+                    self.LoadingStop()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        self.performSegue(withIdentifier: "application", sender: nil)
+                    }
+                    //
+                    //add to chat
+                    //
+                    self.currentUser = User(uid: self.keepUserData[0], name: self.keepUserData[1])
+                    let authKey = "5dcab8f18ef25a578d00667cdbede748b0c85d6d" // Replace with your Auth Key.
+                    CometChat.createUser(user: self.currentUser, apiKey: authKey, onSuccess: { (User) in
+                          print("User created successfully. \(User.stringValue())")
+                      }) { (error) in
+                         print("The error is \(String(describing: error?.description))")
+                    }
+                    //
+                    //end add to chat
+                    //
+                case .failure:
+                    self.LoadingStop()
+                    let alert = UIAlertController(
+                        title: "มีบางอย่างผิดพลาด",
+                        message: "กรุณาตรวจสอบชื่อผู้ใช้ หรือ รหัสผ่านอีกครั้ง",
+                        preferredStyle: UIAlertController.Style.alert
+                    )
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+                
             } else {
+                self.LoadingStop()
                 let alert = UIAlertController(
                     title: "มีบางอย่างผิดพลาด",
-                    message: "กรุณาตรวจสอบชื่อผู้ใช้ หรือ รหัสผ่านอีกครั้ง",
+                    message: "กรุณากรอกข้อมูลให้ครบถ้วน",
                     preferredStyle: UIAlertController.Style.alert
                 )
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -75,6 +108,11 @@ class LoginViewController: UIViewController {
         hideKB()
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        currentUser = User(uid: "", name: "")
+        
     }
 
     

@@ -1,7 +1,10 @@
 PODS:
   - Alamofire (5.5.0)
   - AnimatableReload (0.2.0)
-  - BetterSegmentedControl (2.0.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CometChatPro (3.0.900)
   - DropDown (2.3.13)
   - Firebase/Core (8.4.0):
     - Firebase/CoreOnly
@@ -93,7 +96,8 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AnimatableReload
-  - BetterSegmentedControl (~> 2.0)
+  - Charts
+  - CometChatPro (= 3.0.900)
   - DropDown
   - Firebase/Core
   - Firebase/Storage
@@ -102,7 +106,8 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - AnimatableReload
-    - BetterSegmentedControl
+    - Charts
+    - CometChatPro
     - DropDown
     - Firebase
     - FirebaseAnalytics
@@ -120,7 +125,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   AnimatableReload: 9576d3019bfb103f76b5f37fa6f8915bd8307527
-  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CometChatPro: 09623c146b21a4175bee89bbd581b8408c55db49
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Firebase: 54cdc8bc9c9b3de54f43dab86e62f5a76b47034f
   FirebaseAnalytics: 4751d6a49598a2b58da678cc07df696bcd809ab9
@@ -135,6 +141,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 86be9141be2bf3cd480098f57a3964721439e5ac
+PODFILE CHECKSUM: 4db013953b1916e818bab32a0ac8dc803bcfa8da
 
 COCOAPODS: 1.11.2

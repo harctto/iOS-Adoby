@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>864889082185-f885e25uhudh0r5f6f63g555dkbpo2qi.apps.googleusercontent.com</string>
+	<string>864889082185-bm6r787srsc5qtg6ounm8njafn5c97ln.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.864889082185-f885e25uhudh0r5f6f63g555dkbpo2qi</string>
+	<string>com.googleusercontent.apps.864889082185-bm6r787srsc5qtg6ounm8njafn5c97ln</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBb0nP7w7o0W0ZpgIFSwTNQnGERAKGzM6w</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.hatto.Adopby</string>
+	<string>com.hattoo.Adopby</string>
 	<key>PROJECT_ID</key>
 	<string>adopby</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:864889082185:ios:3831d1b46f9f5d111fca98</string>
+	<string>1:864889082185:ios:3ff67729525e068e1fca98</string>
 </dict>
 </plist>
