@@ -30,6 +30,7 @@ class ShowDetailViewController: UIViewController {
     var keepCurrentUsernamePost:String = ""
     var url:URL!
     var user : User!
+    let authKey = "5dcab8f18ef25a578d00667cdbede748b0c85d6d"
     
     @IBAction func btnDIsmiss(_ sender: Any) {
         self.dismiss(animated: true)
@@ -180,10 +181,22 @@ class ShowDetailViewController: UIViewController {
             self.user = User(uid: prepareDataPetlost.uid, name: keepCurrentUsernamePost)
         }
 
-        let messageList = CometChatMessageList()
-        let navigationController = UINavigationController(rootViewController:messageList)
-        messageList.set(conversationWith: self.user, type: .user)
-        self.present(navigationController, animated:true, completion:nil)
+        CometChat.login(UID: keepCurrentUser, apiKey: authKey, onSuccess: { (user) in
+            print("Login successfull: " + user.stringValue())
+            self.openChat()
+        }) { (error) in
+            print("Login failed with error" + error.errorDescription)
+        }
+        
+    }
+    
+    func openChat() {
+        DispatchQueue.main.async {
+            let messageList = CometChatMessageList()
+            let navigationController = UINavigationController(rootViewController:messageList)
+            messageList.set(conversationWith: self.user, type: .user)
+            self.present(navigationController, animated:true, completion:nil)
+        }
     }
     
     override func viewDidLoad() {

@@ -294,7 +294,7 @@ public class CometChatConversationList: UIViewController {
             
             FeatureRestriction.isStartConversationEnabled { ( success) in
                 if success == .enabled {
-                    self.addStartConversation(true)
+                    self.addStartConversation(false)
                 }
             }
         }

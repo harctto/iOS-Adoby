@@ -7,19 +7,18 @@
 
 import UIKit
 import CometChatPro
+import Alamofire
 
 class ChatKitUiViewController: CometChatConversationList {
     
     var uid:String = ""
     let authKey = "5dcab8f18ef25a578d00667cdbede748b0c85d6d"
-    var currentUsername:[String] = []
+    var currentUsername:Users!
     
     func setUpChat() {
-        CometChat.login(UID: currentUsername[0], apiKey: authKey, onSuccess: { (user) in
+        CometChat.login(UID: currentUsername.uid, apiKey: authKey, onSuccess: { (user) in
             print("Login successfull: " + user.stringValue())
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                self.openChat()
-            }
+            self.openChat()
         }) { (error) in
             print("Login failed with error" + error.errorDescription)
         }
@@ -37,16 +36,21 @@ class ChatKitUiViewController: CometChatConversationList {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         let valueTabbar = tabBarController as! BaseTabbar
-        currentUsername = valueTabbar.userData
-        uid = currentUsername[0]
-        self.LoadingStart()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            self.setUpChat()
-            self.LoadingStop()
+        let url = "https://adoby.glitch.me/auth/\(valueTabbar.userData[0])"
+        DispatchQueue.main.async {
+            AF.request(
+                url,
+                method: .get
+            ).responseDecodable(of: Users.self) { response in
+                self.currentUsername = response.value
+                self.setUpChat()
+            }
         }
-        
-        // Do any additional setup after loading the view.
     }
     
 }
